@@ -52,7 +52,7 @@
     margin-top:-50px;
     width:50px;
     height:100px;
-    background:rgba(0, 0, 0, 0.4) url("../img/home_banner/arrow-left.png") no-repeat center;
+    background:rgba(0, 0, 0, 0.4) url(../../images/home/arrow-left.png) no-repeat center;
     border-radius:5px;
 }
 #imgd .left{
@@ -60,7 +60,7 @@
 }
 #imgd .right{
     right:5px;
-    background-image:url("../img/home_banner/arrow-right.png");
+    background-image:url(../../images/home/arrow-right.png);
 }
 
    

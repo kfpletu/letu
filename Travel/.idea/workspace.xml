@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d182c637-e437-474a-968d-37b4df8b176e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/templates/about/变量名使用记录.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/basic.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/basic.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/home/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/home/home.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/home/banner05.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/home/banner05.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/home/banner06.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/home/banner06.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/home/banner08.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/home/tour9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/home/tour9.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,23 +19,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Travel/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2726">
+            <state relative-caret-position="1746">
               <caret line="94" selection-start-line="94" selection-end-line="94" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/templates/about/变量名使用记录.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="29">
-                <caret line="1" selection-start-line="1" selection-end-line="1" />
-              </first_editor>
-              <second_editor />
             </state>
           </provider>
         </entry>
@@ -37,8 +31,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Travel/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="754">
-              <caret line="29" selection-start-line="29" selection-end-line="29" />
+            <state relative-caret-position="522">
+              <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
               <folding>
                 <element signature="e#640#681#0" expanded="true" />
               </folding>
@@ -49,8 +43,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="986">
-              <caret line="34" column="35" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
+            <state relative-caret-position="667">
+              <caret line="32" column="27" lean-forward="true" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
+              <folding>
+                <element signature="e#3880#3884#0#HTML" expanded="true" />
+                <element signature="e#3888#3892#0#HTML" expanded="true" />
+                <element signature="e#4360#4364#0#HTML" expanded="true" />
+                <element signature="e#4367#4371#0#HTML" expanded="true" />
+                <element signature="e#4866#4870#0#HTML" expanded="true" />
+                <element signature="e#4874#4878#0#HTML" expanded="true" />
+                <element signature="e#5396#5400#0#HTML" expanded="true" />
+                <element signature="e#5406#5410#0#HTML" expanded="true" />
+                <element signature="e#5961#5965#0#HTML" expanded="true" />
+                <element signature="e#5969#5973#0#HTML" expanded="true" />
+                <element signature="e#6499#6503#0#HTML" expanded="true" />
+                <element signature="e#6512#6516#0#HTML" expanded="true" />
+                <element signature="e#6980#6984#0#HTML" expanded="true" />
+                <element signature="e#6987#6991#0#HTML" expanded="true" />
+                <element signature="e#7504#7508#0#HTML" expanded="true" />
+                <element signature="e#7511#7515#0#HTML" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/css/basic.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="17" column="30" lean-forward="true" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -94,10 +115,12 @@
         <option value="$PROJECT_DIR$/Travel/views.py" />
         <option value="$PROJECT_DIR$/Travel/settings.py" />
         <option value="$PROJECT_DIR$/templates/about/变量名使用记录.md" />
+        <option value="$PROJECT_DIR$/templates/index.html" />
+        <option value="$PROJECT_DIR$/static/css/basic.css" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="43" />
     <option name="y" value="28" />
     <option name="width" value="769" />
@@ -122,6 +145,17 @@
               <item name="Travel" type="b2602c69:ProjectViewProjectNode" />
               <item name="Travel" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Travel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Travel" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Travel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Travel" type="462c0819:PsiDirectoryNode" />
+              <item name="Travel" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -195,15 +229,16 @@
       <option name="presentableId" value="Default" />
       <updated>1561170569155</updated>
       <workItem from="1561170570640" duration="2019000" />
-      <workItem from="1561173093524" duration="305000" />
+      <workItem from="1561173093524" duration="2723000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2324000" />
+    <option name="totallyTimeSpent" value="4742000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="43" y="28" width="1877" height="1052" extended-state="6" />
+    <frame x="43" y="28" width="1877" height="1052" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -237,23 +272,6 @@
     <entry file="file://$PROJECT_DIR$/static/js/home/home_banner.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Travel/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="754">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-          <folding>
-            <element signature="e#640#681#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="986">
-          <caret line="34" column="35" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Travel/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="116">
@@ -268,13 +286,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Travel/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2726">
-          <caret line="94" selection-start-line="94" selection-end-line="94" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/about/变量名使用记录.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -282,6 +293,55 @@
             <caret line="1" selection-start-line="1" selection-end-line="1" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Travel/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+          <folding>
+            <element signature="e#640#681#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="667">
+          <caret line="32" column="27" lean-forward="true" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
+          <folding>
+            <element signature="e#3880#3884#0#HTML" expanded="true" />
+            <element signature="e#3888#3892#0#HTML" expanded="true" />
+            <element signature="e#4360#4364#0#HTML" expanded="true" />
+            <element signature="e#4367#4371#0#HTML" expanded="true" />
+            <element signature="e#4866#4870#0#HTML" expanded="true" />
+            <element signature="e#4874#4878#0#HTML" expanded="true" />
+            <element signature="e#5396#5400#0#HTML" expanded="true" />
+            <element signature="e#5406#5410#0#HTML" expanded="true" />
+            <element signature="e#5961#5965#0#HTML" expanded="true" />
+            <element signature="e#5969#5973#0#HTML" expanded="true" />
+            <element signature="e#6499#6503#0#HTML" expanded="true" />
+            <element signature="e#6512#6516#0#HTML" expanded="true" />
+            <element signature="e#6980#6984#0#HTML" expanded="true" />
+            <element signature="e#6987#6991#0#HTML" expanded="true" />
+            <element signature="e#7504#7508#0#HTML" expanded="true" />
+            <element signature="e#7511#7515#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/basic.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="17" column="30" lean-forward="true" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Travel/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1746">
+          <caret line="94" selection-start-line="94" selection-end-line="94" />
         </state>
       </provider>
     </entry>
