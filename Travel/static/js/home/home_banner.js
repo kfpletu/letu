@@ -61,10 +61,10 @@ $(function(){
     }
 
     $("#tour #search2 img").mouseover(function(){
-        $(this).attr('src',"./img/home_banner/search2.png")
+        $(this).attr('src',"/static/images/home/search2.png")
     })
     $("#tour #search2 img").mouseout(function(){
-        $(this).attr('src',"./img/home_banner/search1.png")
+        $(this).attr('src',"/static/images/home/search1.png")
         $(this).prev().css('outline','none')
     })
 })
