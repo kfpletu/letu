@@ -2,145 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d182c637-e437-474a-968d-37b4df8b176e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Travel/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/home/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/home/home_banner.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Travel_Project-master/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Travel_Project-master/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Travel_Project-master/css/about.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Travel_Project-master/css/about.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Travel_Project-master/css/basic.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Travel_Project-master/css/basic.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Travel_Project-master/css/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Travel_Project-master/css/home.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Travel_Project-master/css/information.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Travel_Project-master/css/information.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Travel_Project-master/css/order.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Travel_Project-master/css/order.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Travel_Project-master/css/preview.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Travel_Project-master/css/preview.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Travel_Project-master/img/about/trea1.png" beforeDir="false" afterPath="$PROJECT_DIR$/../Travel_Project-master/img/about/trea1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Travel_Project-master/img/about/trea2.png" beforeDir="false" afterPath="$PROJECT_DIR$/../Travel_Project-master/img/about/trea2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Travel_Project-master/img/about/trea3.png" beforeDir="false" afterPath="$PROJECT_DIR$/../Travel_Project-master/img/about/trea3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Travel_Project-master/img/about/trea4.png" beforeDir="false" afterPath="$PROJECT_DIR$/../Travel_Project-master/img/about/trea4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Travel_Project-master/img/home/adver.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../Travel_Project-master/img/home/adver.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Travel_Project-master/img/home/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/../Travel_Project-master/img/home/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Travel_Project-master/img/home/tour1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../Travel_Project-master/img/home/tour1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Travel_Project-master/img/home/tour2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../Travel_Project-master/img/home/tour2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Travel_Project-master/img/home/tour3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../Travel_Project-master/img/home/tour3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Travel_Project-master/img/home/tour4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../Travel_Project-master/img/home/tour4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Travel_Project-master/img/home/tour5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../Travel_Project-master/img/home/tour5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Travel_Project-master/img/home/tour6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../Travel_Project-master/img/home/tour6.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Travel_Project-master/img/home/tour7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../Travel_Project-master/img/home/tour7.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Travel_Project-master/img/home/tour8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../Travel_Project-master/img/home/tour8.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Travel_Project-master/img/home/tour9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../Travel_Project-master/img/home/tour9.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Travel_Project-master/img/home_banner/banner01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../Travel_Project-master/img/home_banner/banner01.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Travel_Project-master/img/home_banner/banner02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../Travel_Project-master/img/home_banner/banner02.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Travel_Project-master/img/home_banner/banner03.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../Travel_Project-master/img/home_banner/banner03.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Travel_Project-master/img/home_banner/banner04.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../Travel_Project-master/img/home_banner/banner04.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Travel_Project-master/img/home_banner/banner05.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../Travel_Project-master/img/home_banner/banner05.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Travel_Project-master/img/home_banner/banner06.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../Travel_Project-master/img/home_banner/banner06.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Travel_Project-master/img/home_banner/banner07.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../Travel_Project-master/img/home_banner/banner07.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Travel_Project-master/img/home_banner/banner08.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../Travel_Project-master/img/home_banner/banner08.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Travel_Project-master/img/home_banner/banner09.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../Travel_Project-master/img/home_banner/banner09.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Travel_Project-master/img/home_banner/shouye.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../Travel_Project-master/img/home_banner/shouye.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Travel_Project-master/img/information/disc.png" beforeDir="false" afterPath="$PROJECT_DIR$/../Travel_Project-master/img/information/disc.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Travel_Project-master/img/information/headline.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../Travel_Project-master/img/information/headline.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Travel_Project-master/img/information/hot1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../Travel_Project-master/img/information/hot1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Travel_Project-master/img/information/hot2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../Travel_Project-master/img/information/hot2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Travel_Project-master/img/information/hot3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../Travel_Project-master/img/information/hot3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Travel_Project-master/img/information/hot4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../Travel_Project-master/img/information/hot4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Travel_Project-master/img/information/hot5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../Travel_Project-master/img/information/hot5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Travel_Project-master/img/information/hot6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../Travel_Project-master/img/information/hot6.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Travel_Project-master/img/information/hot7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../Travel_Project-master/img/information/hot7.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Travel_Project-master/img/information/hot8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../Travel_Project-master/img/information/hot8.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Travel_Project-master/img/information/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/../Travel_Project-master/img/information/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Travel_Project-master/img/information/tour1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../Travel_Project-master/img/information/tour1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Travel_Project-master/img/information/tour2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../Travel_Project-master/img/information/tour2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Travel_Project-master/img/information/tour3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../Travel_Project-master/img/information/tour3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Travel_Project-master/img/information/tour4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../Travel_Project-master/img/information/tour4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Travel_Project-master/img/information/tour5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../Travel_Project-master/img/information/tour5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Travel_Project-master/img/information/tour6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../Travel_Project-master/img/information/tour6.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Travel_Project-master/img/information/tour7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../Travel_Project-master/img/information/tour7.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Travel_Project-master/img/information/tour8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../Travel_Project-master/img/information/tour8.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Travel_Project-master/img/information/tour9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../Travel_Project-master/img/information/tour9.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Travel_Project-master/img/ticket/headline.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../Travel_Project-master/img/ticket/headline.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Travel_Project-master/img/ticket/hot1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../Travel_Project-master/img/ticket/hot1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Travel_Project-master/img/ticket/hot2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../Travel_Project-master/img/ticket/hot2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Travel_Project-master/img/ticket/hot3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../Travel_Project-master/img/ticket/hot3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Travel_Project-master/img/ticket/hot4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../Travel_Project-master/img/ticket/hot4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Travel_Project-master/img/ticket/hot5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../Travel_Project-master/img/ticket/hot5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Travel_Project-master/img/ticket/hot6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../Travel_Project-master/img/ticket/hot6.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Travel_Project-master/img/ticket/hot7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../Travel_Project-master/img/ticket/hot7.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Travel_Project-master/img/ticket/hot8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../Travel_Project-master/img/ticket/hot8.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Travel_Project-master/img/ticket/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/../Travel_Project-master/img/ticket/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Travel_Project-master/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Travel_Project-master/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Travel_Project-master/information.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Travel_Project-master/information.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Travel_Project-master/js/home_banner_start.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Travel_Project-master/js/home_banner_start.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Travel_Project-master/order.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Travel_Project-master/order.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Travel_Project-master/preview.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Travel_Project-master/preview.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../about.html" beforeDir="false" afterPath="$PROJECT_DIR$/../about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../css/about.css" beforeDir="false" afterPath="$PROJECT_DIR$/../css/about.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../css/basic.css" beforeDir="false" afterPath="$PROJECT_DIR$/../css/basic.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../css/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/../css/home.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../css/information.css" beforeDir="false" afterPath="$PROJECT_DIR$/../css/information.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../css/order.css" beforeDir="false" afterPath="$PROJECT_DIR$/../css/order.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../css/preview.css" beforeDir="false" afterPath="$PROJECT_DIR$/../css/preview.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../img/about/trea1.png" beforeDir="false" afterPath="$PROJECT_DIR$/../img/about/trea1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../img/about/trea2.png" beforeDir="false" afterPath="$PROJECT_DIR$/../img/about/trea2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../img/about/trea3.png" beforeDir="false" afterPath="$PROJECT_DIR$/../img/about/trea3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../img/about/trea4.png" beforeDir="false" afterPath="$PROJECT_DIR$/../img/about/trea4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../img/home/adver.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../img/home/adver.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../img/home/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/../img/home/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../img/home/tour1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../img/home/tour1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../img/home/tour2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../img/home/tour2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../img/home/tour3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../img/home/tour3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../img/home/tour4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../img/home/tour4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../img/home/tour5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../img/home/tour5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../img/home/tour6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../img/home/tour6.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../img/home/tour7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../img/home/tour7.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../img/home/tour8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../img/home/tour8.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../img/home/tour9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../img/home/tour9.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../img/home_banner/banner01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../img/home_banner/banner01.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../img/home_banner/banner02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../img/home_banner/banner02.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../img/home_banner/banner03.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../img/home_banner/banner03.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../img/home_banner/banner04.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../img/home_banner/banner04.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../img/home_banner/banner05.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../img/home_banner/banner05.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../img/home_banner/banner06.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../img/home_banner/banner06.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../img/home_banner/banner07.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../img/home_banner/banner07.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../img/home_banner/banner08.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../img/home_banner/banner08.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../img/home_banner/banner09.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../img/home_banner/banner09.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../img/home_banner/shouye.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../img/home_banner/shouye.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../img/information/disc.png" beforeDir="false" afterPath="$PROJECT_DIR$/../img/information/disc.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../img/information/headline.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../img/information/headline.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../img/information/hot1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../img/information/hot1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../img/information/hot2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../img/information/hot2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../img/information/hot3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../img/information/hot3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../img/information/hot4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../img/information/hot4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../img/information/hot5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../img/information/hot5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../img/information/hot6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../img/information/hot6.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../img/information/hot7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../img/information/hot7.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../img/information/hot8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../img/information/hot8.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../img/information/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/../img/information/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../img/information/tour1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../img/information/tour1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../img/information/tour2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../img/information/tour2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../img/information/tour3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../img/information/tour3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../img/information/tour4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../img/information/tour4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../img/information/tour5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../img/information/tour5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../img/information/tour6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../img/information/tour6.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../img/information/tour7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../img/information/tour7.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../img/information/tour8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../img/information/tour8.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../img/information/tour9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../img/information/tour9.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../img/ticket/headline.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../img/ticket/headline.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../img/ticket/hot1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../img/ticket/hot1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../img/ticket/hot2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../img/ticket/hot2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../img/ticket/hot3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../img/ticket/hot3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../img/ticket/hot4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../img/ticket/hot4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../img/ticket/hot5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../img/ticket/hot5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../img/ticket/hot6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../img/ticket/hot6.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../img/ticket/hot7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../img/ticket/hot7.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../img/ticket/hot8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../img/ticket/hot8.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../img/ticket/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/../img/ticket/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../information.html" beforeDir="false" afterPath="$PROJECT_DIR$/../information.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../js/home_banner_start.js" beforeDir="false" afterPath="$PROJECT_DIR$/../js/home_banner_start.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../order.html" beforeDir="false" afterPath="$PROJECT_DIR$/../order.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../preview.html" beforeDir="false" afterPath="$PROJECT_DIR$/../preview.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/about/变量名使用记录.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -149,12 +12,24 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Travel/settings.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="2726">
-              <caret line="94" lean-forward="true" selection-start-line="94" selection-end-line="94" />
+              <caret line="94" selection-start-line="94" selection-end-line="94" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/about/变量名使用记录.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="29">
+                <caret line="1" selection-start-line="1" selection-end-line="1" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -162,7 +37,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Travel/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="673">
+            <state relative-caret-position="754">
               <caret line="29" selection-start-line="29" selection-end-line="29" />
               <folding>
                 <element signature="e#640#681#0" expanded="true" />
@@ -174,7 +49,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1102">
+            <state relative-caret-position="986">
               <caret line="34" column="35" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
             </state>
           </provider>
@@ -218,16 +93,7 @@
         <option value="$PROJECT_DIR$/Travel/urls.py" />
         <option value="$PROJECT_DIR$/Travel/views.py" />
         <option value="$PROJECT_DIR$/Travel/settings.py" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/Travel.iml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+        <option value="$PROJECT_DIR$/templates/about/变量名使用记录.md" />
       </list>
     </option>
   </component>
@@ -252,6 +118,11 @@
               <item name="Travel" type="b2602c69:ProjectViewProjectNode" />
               <item name="Travel" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Travel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Travel" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -260,8 +131,9 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/static/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -323,24 +195,19 @@
       <option name="presentableId" value="Default" />
       <updated>1561170569155</updated>
       <workItem from="1561170570640" duration="2019000" />
+      <workItem from="1561173093524" duration="305000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2019000" />
+    <option name="totallyTimeSpent" value="2324000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="43" y="28" width="1877" height="1052" extended-state="6" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32894737" />
@@ -348,28 +215,42 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="SciView" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/trip/urls.py">
+    <entry file="file://$PROJECT_DIR$/home/urls.py" />
+    <entry file="file://$PROJECT_DIR$/templates/home/index.html" />
+    <entry file="file://$PROJECT_DIR$/static/js/home/home_banner.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Travel/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="754">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="e#640#681#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/home/urls.py">
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+        <state relative-caret-position="986">
+          <caret line="34" column="35" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -380,37 +261,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/home/index.html">
+    <entry file="file://$PROJECT_DIR$/trip/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="11" column="46" lean-forward="true" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Travel/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="673">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-          <folding>
-            <element signature="e#640#681#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/home/home_banner.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1102">
-          <caret line="34" column="35" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
+        <state relative-caret-position="116">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Travel/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2726">
-          <caret line="94" lean-forward="true" selection-start-line="94" selection-end-line="94" />
+          <caret line="94" selection-start-line="94" selection-end-line="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/about/变量名使用记录.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="29">
+            <caret line="1" selection-start-line="1" selection-end-line="1" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
