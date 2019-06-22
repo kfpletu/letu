@@ -16,11 +16,12 @@ Including another URLconf
 from django.conf.urls import url, include
 from django.contrib import admin
 
-from .views import *
+from . import views
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^$', index_views),
+    url(r'^$',views.index_views),
+    url(r'^index', views.index_views),
     url(r'^user/', include("user.urls")),
     url(r'^scenic/', include("scenic.urls")),
     url(r'^hotel/', include("hotel.urls")),
