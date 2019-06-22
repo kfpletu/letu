@@ -1,6 +1,6 @@
 #headline {
     background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)) no-repeat center,
-        url(../../static/images/hotel/headline.jpeg) no-repeat center;
+        url(../../images/hotel/headline.jpeg) no-repeat center;
     background-size: 100% 300px;
 
 }

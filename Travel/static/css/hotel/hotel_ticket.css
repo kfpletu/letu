@@ -12,7 +12,11 @@ body{
     margin-top: 40px;
     position: relative;
     overflow: hidden;
-    height: 425px;
+    /*height: 450px;*/
+}
+#bodyer1>div:nth-child(1){
+    font-size: 25px;
+    margin-left: 20px;
 }
 /* .imgs{
     width: 500px;
