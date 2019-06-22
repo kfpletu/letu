@@ -83,12 +83,19 @@ ul,ol{
     margin-right: 50px;
     font-size: 13px;
     color: #eee;
+    text-align: center;
 }
 #cart .home{
     line-height: 70px;
 }
 #cart .home .info1{
     line-height: 25px;
+}
+#cart .home .info1 li{
+    text-align: center;
+}
+#cart .home #uname{
+    width: 100px;
 }
 #header .link {
     width: 650px;
