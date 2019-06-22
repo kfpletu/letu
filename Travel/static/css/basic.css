@@ -91,7 +91,7 @@ ul,ol{
     line-height: 25px;
 }
 #header .link {
-    width: 650px;../../images/home/arrow-left.png
+    width: 650px;
     height: 70px;
     line-height: 70px;
     /* 里面的内容垂直居中 */
@@ -101,7 +101,7 @@ ul,ol{
 #header .link li {
     float: left;
     height: 70px;
-    width: 120px;../../images/home/arrow-left.png
+    width: 120px;
     text-align: center;
 }
 #header .login{
@@ -114,7 +114,7 @@ ul,ol{
     float: right;  
 }
 #header .login a:hover{
-    background: crimson;../../images/home/arrow-left.png
+    background: crimson;
 }
 #header .login #register{
     margin-right: 20px;
