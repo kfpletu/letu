@@ -11,7 +11,7 @@ body,h1,ul,h2,h3,figure,p{
     float: left;
     height: 70px;
     width: 164px;
-    background-image: url(../img/home/logo.png);
+    background-image: url(../images/home/logo.png);
     text-indent: -999px;
 }
 
@@ -91,7 +91,7 @@ ul,ol{
     line-height: 25px;
 }
 #header .link {
-    width: 650px;
+    width: 650px;../../images/home/arrow-left.png
     height: 70px;
     line-height: 70px;
     /* 里面的内容垂直居中 */
@@ -101,7 +101,7 @@ ul,ol{
 #header .link li {
     float: left;
     height: 70px;
-    width: 120px;
+    width: 120px;../../images/home/arrow-left.png
     text-align: center;
 }
 #header .login{
@@ -114,7 +114,7 @@ ul,ol{
     float: right;  
 }
 #header .login a:hover{
-    background: crimson;
+    background: crimson;../../images/home/arrow-left.png
 }
 #header .login #register{
     margin-right: 20px;
