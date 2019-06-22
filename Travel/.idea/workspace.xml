@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d182c637-e437-474a-968d-37b4df8b176e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/basic.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/basic.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/home/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/home/home.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/home/banner05.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/home/banner05.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/home/banner06.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/home/banner06.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/home/banner08.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/home/tour9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/home/tour9.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="d182c637-e437-474a-968d-37b4df8b176e" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,83 +9,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Travel/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1746">
-              <caret line="94" selection-start-line="94" selection-end-line="94" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Travel/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="522">
-              <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
-              <folding>
-                <element signature="e#640#681#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="667">
-              <caret line="32" column="27" lean-forward="true" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
-              <folding>
-                <element signature="e#3880#3884#0#HTML" expanded="true" />
-                <element signature="e#3888#3892#0#HTML" expanded="true" />
-                <element signature="e#4360#4364#0#HTML" expanded="true" />
-                <element signature="e#4367#4371#0#HTML" expanded="true" />
-                <element signature="e#4866#4870#0#HTML" expanded="true" />
-                <element signature="e#4874#4878#0#HTML" expanded="true" />
-                <element signature="e#5396#5400#0#HTML" expanded="true" />
-                <element signature="e#5406#5410#0#HTML" expanded="true" />
-                <element signature="e#5961#5965#0#HTML" expanded="true" />
-                <element signature="e#5969#5973#0#HTML" expanded="true" />
-                <element signature="e#6499#6503#0#HTML" expanded="true" />
-                <element signature="e#6512#6516#0#HTML" expanded="true" />
-                <element signature="e#6980#6984#0#HTML" expanded="true" />
-                <element signature="e#6987#6991#0#HTML" expanded="true" />
-                <element signature="e#7504#7508#0#HTML" expanded="true" />
-                <element signature="e#7511#7515#0#HTML" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/css/basic.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="17" column="30" lean-forward="true" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Travel/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/trip/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -139,22 +54,6 @@
           <expand>
             <path>
               <item name="Travel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Travel" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Travel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Travel" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Travel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Travel" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Travel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Travel" type="462c0819:PsiDirectoryNode" />
               <item name="Travel" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -231,16 +130,23 @@
       <workItem from="1561170570640" duration="2019000" />
       <workItem from="1561173093524" duration="2723000" />
     </task>
+    <task id="LOCAL-00001" summary="111">
+      <created>1561195117523</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1561195117523</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4742000" />
+    <option name="totallyTimeSpent" value="4863000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="43" y="28" width="1877" height="1052" extended-state="7" />
-    <editor active="true" />
+    <frame x="45" y="25" width="1875" height="1055" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12122875" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -265,6 +171,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="111" />
+    <option name="LAST_COMMIT_MESSAGE" value="111" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/home/urls.py" />
@@ -342,6 +252,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1746">
           <caret line="94" selection-start-line="94" selection-end-line="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/about/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1218">
+          <caret line="42" column="24" lean-forward="true" selection-start-line="42" selection-start-column="24" selection-end-line="42" selection-end-column="24" />
+          <folding>
+            <element signature="n#div#0;n#div#1;n#aside#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
