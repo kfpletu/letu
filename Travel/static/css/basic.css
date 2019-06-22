@@ -11,7 +11,7 @@ body,h1,ul,h2,h3,figure,p{
     float: left;
     height: 70px;
     width: 164px;
-    background-image: url(../img/home/logo.png);
+    background-image: url(../images/home/logo.png);
     text-indent: -999px;
 }
 
