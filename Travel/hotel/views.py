@@ -4,7 +4,8 @@ from django.http import HttpResponse
 
 # Create your views here.
 def index(request):
-    return render(request,'hotel/order_hotel.html')
+    if request.method=='GET':
+        return render(request,'hotel/order_hotel.html')
 
 
 def fu_li_xi_er_dun(request):

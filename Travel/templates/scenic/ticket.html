@@ -25,10 +25,10 @@
                 <div id="cart"><a href="">我的订单</a></div>
             </b>
             <b>
-                <div id="register"><a href="user/register.html">免费注册</a></div>
+                <div id="register"><a href="/user/register">免费注册</a></div>
             </b>
             <b>
-                <div id="login"><a href="user/login.html">您好,请登录</a></div>
+                <div id="login"><a href="/user/login">您好,请登录</a></div>
             </b>
         </div>
         <div class="center">
@@ -39,11 +39,11 @@
             <nav>
                 <ul class="link">
                     <h1 class="none">网站导航</h1>
-                    <li><a href="../index.html">首页</a></li>
-                    <li class="active"><a href="{% url 'scenic1' %}">景点门票</a></li>
-                    <li><a href="order.html">交通出行</a></li>
-                    <li><a href="order_hotel.html">酒店预定</a></li>
-                    <li><a href="about.html">关于我们</a></li>
+                    <li><a href="/">首页</a></li>
+                    <li class="active"><a href="/scenic">景点门票</a></li>
+                    <li><a href="/trip">交通出行</a></li>
+                    <li><a href="/hotel">酒店预定</a></li>
+                    <li><a href="/about">关于我们</a></li>
                 </ul>
             </nav>
         </div>
@@ -106,17 +106,13 @@
 
     <div id="bodytickrt">
         <div class=daohang style="background:orange;">
-            <a href="##">门票订购</a>
-            <a href="order_hotel.html">周围酒店</a>
+            <a href="/scenic/ticket">门票订购</a>
+            <a href="/hotel">周围酒店</a>
         </div>
 
         <div class="info">
             <!--顶部工具栏-->
             <div class="type">
-                <div class="check">
-                    <!-- <img src="../img/cart/product_normal.png" class="checkAll"> -->
-                    选项
-                </div>
                 <div class=gper>门票种类</div>
                 <div class="gname">景点名称</div>
                 <div class=gpt>提前预定时间</div>
@@ -129,9 +125,7 @@
             <div class="conten">
                 <!--购票信息-->
                 <div class="item">
-                    <div class="check">
-                        <img src="../img/cart/product_normal.png" class="checkItem">
-                    </div>
+
                     <div class="gper">
                         <p>成人票</p>
                     </div>
@@ -157,9 +151,6 @@
                 </div>
 
                 <div class="item">
-                    <div class="check">
-                        <img src="../img/cart/product_normal.png" class="checkItem">
-                    </div>
                     <div class="gper">
                         <p>儿童票</p>
                     </div>
@@ -254,11 +245,11 @@
             <div class="block center">
                 <h2>旅游 FAQ</h2>
                 <hr>
-                <p><a href="../travel/html/travelContract.html">旅游合同签订方式？</a></p>
-                <p><a href="../travel/html/childPrice.html">儿童价是基于什么制定的？</a></p>
-                <p><a href="../travel/html/touristRoute.html">旅游的线路品质怎么界定的？</a></p>
-                <p><a href="../travel/html/singleRoom.html">单房差是什么？</a></p>
-                <p><a href="../travel/html/travelInsuranceCategory.html">旅游保险有那些种类？</a></p>
+               <p><a href="/about/travelContract">旅游合同签订方式？</a></p>
+                <p><a href="/about/childPrice">儿童价是基于什么制定的？</a></p>
+                <p><a href="/about/touristRoute">旅游的线路品质怎么界定的？</a></p>
+                <p><a href="/about/singleRoom">单房差是什么？</a></p>
+                <p><a href="/about/travelInsuranceCategory">旅游保险有那些种类？</a></p>
             </div>
             <div class="block right">
                 <h2>联系方式</h2>
