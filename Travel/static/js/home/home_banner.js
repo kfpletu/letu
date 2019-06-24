@@ -1,7 +1,7 @@
 //等待页面加载完毕
 $(function(){
     var imgList = $("#imgd img");
-    var liList = $("#imgd li")
+    var liList = $("#imgd li");
     var index = 0;
     var timer = setInterval(autoPlay,2000);
     function autoPlay(){
@@ -18,10 +18,10 @@ $(function(){
     }
     $("#imgd").mouseover(function (){
         clearInterval(timer);
-    })
+    });
     $("#imgd").mouseout(function (){
         timer = setInterval(autoPlay,2000);
-    })
+    });
     //向左翻动
     $("#imgd .left").click(function(){
         //当前元素隐藏
@@ -32,7 +32,7 @@ $(function(){
 		//设置显示
 		$("#imgd img").eq(index).css("display","block");
 		$("#imgd li").eq(index).css("background","#fff");
-    })
+    });
     //向右翻动
     $("#imgd .right").click(function(){
         //当前元素隐藏
@@ -43,11 +43,11 @@ $(function(){
 		//设置显示
 		$("#imgd img").eq(index).css("display","block");
 		$("#imgd li").eq(index).css("background","#fff");
-    })
+    });
     //点击圆点实现翻页
     for(var i=0;i<imgList.length;i++){
         $(liList.eq(i)).click(function(){
-            liList.eq(index).css("background","rgba(0,0,0,0)")
+            liList.eq(index).css("background","rgba(0,0,0,0)");
             $(this).css("background","#fff");
             imgList.eq(index).css("display","none");
             for(var j=0;j<liList.length;j++){
