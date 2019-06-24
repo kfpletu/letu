@@ -22,11 +22,11 @@
             <nav>
                 <ul class="link">
                     <h1 class="none">网站导航</h1>
-                    <li><a href="../index.html">首页</a></li>
-                    <li class="active"><a href="##">景点门票</a></li>
-                    <li><a href="../trip/order.html">交通出行</a></li>
-                    <li><a href="../hotel/order_hotel.html">酒店预定</a></li>
-                    <li><a href="../about/about.html">关于我们</a></li>
+                    <li><a href="/">首页</a></li>
+                    <li class="active"><a href="/scenic">景点门票</a></li>
+                    <li><a href="/trip">交通出行</a></li>
+                    <li><a href="/hotel">酒店预定</a></li>
+                    <li><a href="/about">关于我们</a></li>
                 </ul>
             </nav>
 
@@ -114,8 +114,8 @@
             <!-- 子导航栏 -->
             <div class="infor">
                 <ul class="left">
-                    <li><a href="##">限时特价</a></li>
-                    <li><a href="{% url 'scenic2' %}">热门推荐</a></li>
+                    <li><a href="/scenic">限时特价</a></li>
+                    <li><a href="/scenic/scenic2">热门推荐</a></li>
                     <!-- <li><a href="##">景点门票</a></li> -->
                 </ul>
                 <ul class="right">
@@ -353,7 +353,7 @@
                     <div class="buy">
                         <div class="price">￥<strong>60起</strong><s>￥７０</s></div>
                         <!--<div class="reserve"><a href="ticket.html">立即抢购</a></div>-->
-                        <div class="reserve"><a href="{% url 'ticket' %}">立即抢购</a></div>
+                        <div class="reserve"><a href="/scenic/ticket">立即抢购</a></div>
 
                     </div>
                     <div class="type">秦岭野生动物园</div>
@@ -407,11 +407,11 @@
             <div class="block center">
                 <h2>旅游 FAQ</h2>
                 <hr>
-                <p><a href="travelContract.html">旅游合同签订方式？</a></p>
-                <p><a href="childPrice.html">儿童价是基于什么制定的？</a></p>
-                <p><a href="touristRoute.html">旅游的线路品质怎么界定的？</a></p>
-                <p><a href="singleRoom.html">单房差是什么？</a></p>
-                <p><a href="travelInsuranceCategory.html">旅游保险有那些种类？</a></p>
+                <p><a href="/about/travelContract">旅游合同签订方式？</a></p>
+                <p><a href="/about/childPrice">儿童价是基于什么制定的？</a></p>
+                <p><a href="/about/touristRoute">旅游的线路品质怎么界定的？</a></p>
+                <p><a href="/about/singleRoom">单房差是什么？</a></p>
+                <p><a href="/about/travelInsuranceCategory">旅游保险有那些种类？</a></p>
             </div>
             <div class="block right">
                 <h2>联系方式</h2>
