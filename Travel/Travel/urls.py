@@ -19,8 +19,6 @@ from django.contrib import admin
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^$', include("user.urls")),
-    url(r'^index', include('user.urls')),
-    url(r'^index.html$', include("user.urls")),
     url(r'^user/', include("user.urls")),
     url(r'^scenic/', include("scenic.urls")),
     url(r'^hotel/', include("hotel.urls")),
