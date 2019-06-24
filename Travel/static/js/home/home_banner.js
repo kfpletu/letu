@@ -52,7 +52,7 @@ $(function(){
             imgList.eq(index).css("display","none");
             for(var j=0;j<liList.length;j++){
                 //点击后同步更改下标
-                if(liList[j].style.background=="rgb(255, 255, 255)"){
+                if(liList.eq(j).css("background-color")=="rgb(255, 255, 255)"){
                     index = j;
                 }
             }

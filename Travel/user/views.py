@@ -3,18 +3,21 @@ from django.shortcuts import render
 # Create your views here.
 from .models import *
 
+# 登录
 def login(request):
     if request.method == 'GET':
         return render(request, 'user/login.html')
-        
 
-        
-
+#注册
 def register(request):
     if request.method == 'GET':
         return render(request, 'user/register.html')
     elif request.method == 'POST':
-        return 
+        return
+
+#购物车
+def cart(request):
+    return render(request,'user/cart.html')
 
 
 def index(request):
