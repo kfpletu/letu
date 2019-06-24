@@ -183,11 +183,9 @@
     height:36px;
 	line-height:36px;
 }
-.check{
-	width:80px;
-}
+
 .gper{
-    width:80px;
+    width:120px;
 }
 .gname{
 	width:300px;
@@ -205,7 +203,7 @@
 	width:140px;
 }
 .gor{
-    width:100px;
+    width:130px;
 }
 .gor a{
     display:inline-block;
