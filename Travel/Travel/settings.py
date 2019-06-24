@@ -79,14 +79,14 @@ WSGI_APPLICATION = 'Travel.wsgi.application'
 # https://docs.djangoproject.com/en/1.11/ref/settings/#databases
 
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'letu',
-        'USER': 'letu',
-        'PASSWORD': '123456',
-        'HOST': '176.234.8.11',
-        'PORT':3306,
-    }
+    # 'default': {
+    #     'ENGINE': 'django.db.backends.mysql',
+    #     'NAME': 'letu',
+    #     'USER': 'letu',
+    #     'PASSWORD': '123456',
+    #     'HOST': '176.234.8.11',
+    #     'PORT':3306,
+    # }
 }
 
 
