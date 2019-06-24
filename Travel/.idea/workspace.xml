@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d182c637-e437-474a-968d-37b4df8b176e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/home/home_banner.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/home/home_banner.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/user/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/user/cart.html" afterDir="false" />
-    </list>
+    <list default="true" id="d182c637-e437-474a-968d-37b4df8b176e" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,7 +14,7 @@
         <entry file="file://$PROJECT_DIR$/templates/user/cart.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="754">
-              <caret line="47" column="22" lean-forward="true" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="22" />
+              <caret line="47" column="22" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -179,7 +175,7 @@
       <workItem from="1561173093524" duration="2723000" />
       <workItem from="1561195321557" duration="1695000" />
       <workItem from="1561341810130" duration="1129000" />
-      <workItem from="1561343522878" duration="822000" />
+      <workItem from="1561343522878" duration="900000" />
     </task>
     <task id="LOCAL-00001" summary="111">
       <created>1561195117523</created>
@@ -188,15 +184,21 @@
       <option name="project" value="LOCAL" />
       <updated>1561195117523</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="111">
+      <created>1561344862323</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1561344862323</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8509000" />
+    <option name="totallyTimeSpent" value="8587000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13936701" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -379,7 +381,7 @@
     <entry file="file://$PROJECT_DIR$/templates/user/cart.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="754">
-          <caret line="47" column="22" lean-forward="true" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="22" />
+          <caret line="47" column="22" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="22" />
         </state>
       </provider>
     </entry>
