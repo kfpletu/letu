@@ -124,26 +124,26 @@
     border: 1px solid #ddd;
 }
 
-#container .new table th {
-    height: 50px;
-    line-height: 50px;
-    border-bottom: 1px solid #ddd;
-    font-weight: normal;
-}
+/*#container .new table th {*/
+/*    height: 50px;*/
+/*    line-height: 50px;*/
+/*    border-bottom: 1px solid #ddd;*/
+/*    font-weight: normal;*/
+/*}*/
 
-#container .new table td {
-    height: 50px;
-    line-height: 50px;
-    text-align: center;
-    border-bottom: 1px solid #ddd;
-}
+/*#container .new table td {*/
+/*    height: 50px;*/
+/*    line-height: 50px;*/
+/*    text-align: center;*/
+/*    border-bottom: 1px solid #ddd;*/
+/*}*/
 
-#container .new table tr {
-    height: 50px;
-    line-height: 50px;
-    border-bottom: 1px solid #ddd;
-    font-weight: normal;
-}
+/*#container .new table tr {*/
+/*    height: 50px;*/
+/*    line-height: 50px;*/
+/*    border-bottom: 1px solid #ddd;*/
+/*    font-weight: normal;*/
+/*}*/
 
 
 
@@ -172,5 +172,4 @@
 
 #container .new table .price {
     color: #f60;
-
 }
