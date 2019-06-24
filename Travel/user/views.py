@@ -21,14 +21,11 @@ def cart(request):
 
 
 def index(request):
-
-    print('进入index处理')
     if request.method == 'GET':
         uname=''
         return render(request, 'index.html', locals())
     elif request.method == 'POST':
         uname = request.POST.get('uname')
-
         upwd = request.POST.get('upwd')
         phone = request.POST.get('phone')
         email = request.POST.get('email')
