@@ -12,6 +12,8 @@ def test(requesst,x):
     return HttpResponse('测试成功%s'%x)
 
 
+def init_db(request):
+
 
 
 def fu_li_xi_er_dun(request):
