@@ -7,6 +7,12 @@ def index(request):
     if request.method=='GET':
         return render(request,'hotel/order_hotel.html')
 
+def test(requesst,x):
+    print(x)
+    return HttpResponse('测试成功%s'%x)
+
+
+
 
 def fu_li_xi_er_dun(request):
     dict={
