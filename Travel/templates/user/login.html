@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>欢迎登录</title>
+    <title>{%block title%}欢迎登录{%endblock title%}</title>
     <link rel="stylesheet" href="/static/css/basic.css" type="text/css">
     <link rel="stylesheet" href="/static/css/user/login.css" type="text/css">
 </head>
@@ -13,10 +13,11 @@
         <a href="/user">
             <img src="/static/images/user/logo.png" alt="logo">
         </a>
-        <span>欢迎登录</span>
+        <span>{% block head %}欢迎登录{% endblock head %}</span>
         <a href="/user"><span class="s1">返回首页</span></a>
     </div>
     <div id="mian">
+        {% block body%}
         <form action="/user/login" method="post">
             <div class="content">
                 <p>
@@ -37,11 +38,12 @@
                     </div>
                 <div class="savePwd">
                     <input type="checkbox" name="savePwd" >自动登录
-                    <a href="">忘记密码?</a>
+                    <a href="/user/forget">忘记密码?</a>
                 </div>
                 <input type="submit"  value="登录" class="login">
             </div>
         </form>
+        {% endblock body%}
     </div>
     <div id="bottom">
         <a href="/user">

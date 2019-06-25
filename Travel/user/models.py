@@ -7,3 +7,5 @@ class Info(models.Model):
     upwd = models.CharField('用户密码', max_length=15,null=False)
     phone = models.CharField('手机号', max_length=11, unique=True)
     email = models.EmailField('邮箱')
+
+
