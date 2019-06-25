@@ -16,11 +16,13 @@
 <body>
     <header id="header">
         <div class="login">
+            {% block lab %}
             <b>
                 <div id="cart">
-                    <a href="user/order.html">历史订单</a>
+                    <a href="/order.html">历史订单</a>
                 </div>
             </b>
+            {% endblock lab%}
         </div>
         <div class="center">
             <h1 class="logo">
