@@ -8,9 +8,9 @@
     <link rel="stylesheet" href="../../static/css/hotel/basic.css">
     <link rel="stylesheet" href="../../static/css/hotel/hotel_ticket.css">
 </head>
-<script src="../../static/js/hotel/jquery.js"></script>
-<script src="../../static/js/hotel/map.js"></script>
-<script src="../../static/js/hotel/order.js"></script>
+<script src="/static/js/hotel/jquery.js"></script>
+<script src="/static/js/hotel/map.js"></script>
+<script src="/static/js/hotel/order.js"></script>
 <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=DVz4AM0f5tDaH8dZwBCjRzHxuaKn3x7x"></script>
 <script type="text/javascript" src="../../static/js/hotel/prefixfree.min.js"></script>
 <script type="text/javascript" src="../../static/js/hotel/hotel_ticket.js"></script>
@@ -49,13 +49,13 @@
         {% endif %}
         <div class="center">
             <h1 class="logo">
-                <a href="../index.html" id="logoA">乐途旅行网</a>
+                <a href="/user" id="logoA">乐途旅行网</a>
             </h1>
 
             <nav>
                 <ul class="link">
                     <h1 class="none">网站导航</h1>
-                    <li><a href="/index.html">首页</a></li>
+                    <li><a href="/user">首页</a></li>
                     <li><a href="/scenic/">景点门票</a></li>
                     <li><a href="/trip/">交通出行</a></li>
                     <li class="active"><a href="/hotel/">酒店预定</a></li>
@@ -72,18 +72,18 @@
         <div><b>{{ hotel_name }}</b></div>
         <div id="content">
             <div id="view">
-                <img src="{{ hotel_p11 }}" alt="Nature1" />
-                <img src="{{ hotel_p12 }}" alt="Nature2" />
-                <img src="{{ hotel_p13 }}" alt="Nature3" />
-                <img src="{{ hotel_p14 }}" alt="Nature4" />
-                <img src="{{ hotel_p15 }}" alt="Nature5" />
+                <img src="/static/images/hotel/{{ hotel_p }}/11.png" alt="Nature1" />
+                <img src="/static/images/hotel/{{ hotel_p }}/12.png" alt="Nature2" />
+                <img src="/static/images/hotel/{{ hotel_p }}/13.png" alt="Nature3" />
+                <img src="/static/images/hotel/{{ hotel_p }}/14.png" alt="Nature4" />
+                <img src="/static/images/hotel/{{ hotel_p }}/15.png" alt="Nature5" />
             </div>
             <div id="pics-thumbs">
-                    <img src="{{ hotel_p11 }}" alt="Nature1" />
-                    <img src="{{ hotel_p12 }}" alt="Nature2" />
-                    <img src="{{ hotel_p13 }}" alt="Nature3" />
-                    <img src="{{ hotel_p14 }}" alt="Nature4" />
-                    <img src="{{ hotel_p15 }}" alt="Nature5" />
+                    <img src="/static/images/hotel/{{ hotel_p }}/11.png" alt="Nature1" />
+                    <img src="/static/images/hotel/{{ hotel_p }}/12.png" alt="Nature2" />
+                    <img src="/static/images/hotel/{{ hotel_p }}/13.png" alt="Nature3" />
+                    <img src="/static/images/hotel/{{ hotel_p }}/14.png" alt="Nature4" />
+                    <img src="/static/images/hotel/{{ hotel_p }}/15.png" alt="Nature5" />
             </div>
         </div>
         <div class="sDetails">
@@ -156,7 +156,7 @@
                         
                     </div>
                     <div class="gname">
-                        <img src="{#../img/hohel_ticket/fulixierdun/f1.jpg#}{{ room1_p }}">
+                        <img src="{#../img/hohel_ticket/fulixierdun/f1.jpg#}/static/images/hotel/{{ hotel_p }}/21.png">
                         <p><b>{# 希尔顿大床房 #}{{ room1_name }}</b></p>
                         <p>{#窗户  有#}{{ room1_window }}</p>
                         <p>{#面积  43㎡#}{{ room1_area }}</p>
@@ -186,7 +186,7 @@
                         
                     </div>
                     <div class="gname">
-                        <img src="{#../img/hohel_ticket/fulixierdun/f2.jpg#}{{ room2_p }}">
+                        <img src="{#../img/hohel_ticket/fulixierdun/f2.jpg#}/static/images/hotel/{{ hotel_p }}/22.png">
                         <p><b>{#希尔顿双床客房#}{{ room2_name }}</b></p>
                         <p>{#  窗户  有#}{{ room2_window }}</p>
                         <p>{#面积  43㎡#}{{ room2_area }}</p>
@@ -216,7 +216,7 @@
                         
                     </div>
                     <div class="gname">
-                        <img src="{#../img/hohel_ticket/fulixierdun/f3.jpg#}{{ room3_p }}">
+                        <img src="{#../img/hohel_ticket/fulixierdun/f3.jpg#}/static/images/hotel/{{ hotel_p }}/23.png">
                         <p><b>{#希尔顿豪华套房#}{{ room3_name }}</b></p>
                         <p>{#窗户  有#}{{ room3_window }}</p>
                         <p>{#面积  50㎡#}{{ room3_area }}</p>
