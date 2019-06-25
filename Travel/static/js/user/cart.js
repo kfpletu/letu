@@ -116,7 +116,11 @@ function sum(){
     }
 
 }
-
+//历史订单移除
+$(".item .oaction").click(function(){
+    //移除整个商品记录
+    $(this).parents(".item").remove();
+});
 });
 
 
