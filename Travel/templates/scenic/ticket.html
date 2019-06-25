@@ -115,7 +115,7 @@
             <div class="type">
                 <div class=gper>门票种类</div>
                 <div class="gname">门票名称</div>
-                <div class=gpt>提前预定时间</div>
+                <div class=gpt>游玩时间</div>
                 <div class="gprice">单价（元）</div>
                 <div class="gcount">数量</div>
                 <div class="gsum">金额</div>
@@ -125,6 +125,7 @@
             <div class="conten">
                 <!--购票信息-->
                 <div class="item">
+                    <form action="／user/cart">
 
                     <div class="gper">
                         <p>成人票</p>
@@ -133,7 +134,7 @@
                         <p>秦岭野生动物园成人票</p>
                     </div>
                     <div class="gpt">
-                        <p>当天15:00前可订</p>
+                        <input type="date">
                     </div>
                     <div class="gprice">
                         <p>￥ 80.00</p>
@@ -146,11 +147,15 @@
                     </div>
                     <div class="gsum">￥80.00</div>
                     <div class="gor">
-                        <a href="##">预定</a>
+                        <!-- <a href="##">预定</a> -->
+                        <input type="submit" value='加入购物车' 
+                        style='color:#000;background: crimson;outline:none;border-radius: 5px;border:0;height:30px;width:80px;line-height:36px;'>
                     </div>
+                    </form>
                 </div>
 
                 <div class="item">
+                    <form action="／user/cart">
                     <div class="gper">
                         <p>儿童票</p>
                     </div>
@@ -158,7 +163,7 @@
                         <p>秦岭野生动物园儿童票</p>
                     </div>
                     <div class="gpt">
-                        <p>当天15:00前可订</p>
+                        <input type="date">
                     </div>
                     <div class="gprice">
                         <p>￥ 40.00</p>
@@ -172,8 +177,11 @@
                     </div>
                     <div class="gsum">￥ 40.00</div>
                     <div class="gor">
-                        <a href="##">预定</a>
+                        <input type="submit" value='加入购物车'
+                        style='color:#000;background: crimson;outline:none;border-radius: 5px;border:0;height:30px;width:80px;line-height:36px;'>
+                        <!-- <a href="">预定</a> -->
                     </div>
+                    </form>
                 </div>
             </div>
         </div>
