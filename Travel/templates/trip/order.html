@@ -174,104 +174,6 @@
                 <li>南京</li>
             </ul>
             <form action="">
-                {#                <table>#}
-                {#                    <thead>#}
-                {#                    <tr>#}
-                {#                        <th>路线</th>#}
-                {#                        <th>日期</th>#}
-                {#                        <th>价格</th>#}
-                {#                        <th>税费</th>#}
-                {#                        <th>餐食</th>#}
-                {#                        <th>航班</th>#}
-                {#                        <th>预定</th>#}
-                {#                        旅游#}
-                {#                    </tr>#}
-                {#                    </thead>#}
-                {#                    <tbody>#}
-                {#                    <tr>#}
-                {#                        <td>北京-成都</td>#}
-                {#                        <td>10-15</td>#}
-                {#                        <td class="price">¥745</td>#}
-                {#                        <td>¥50</td>#}
-                {#                        <td>有</td>#}
-                {#                        <td>春秋航空</td>#}
-                {#                        <td><a href="###" class="reserve">预定</a></td>#}
-                {#                    </tr>#}
-                {#                    <tr>#}
-                {#                        <td>北京-上海</td>#}
-                {#                        <td>10-15</td>#}
-                {#                        <td class="price">¥479</td>#}
-                {#                        <td>¥45</td>#}
-                {#                        <td>无</td>#}
-                {#                        <td>南方航空</td>#}
-                {#                        <td><a href="###" class="reserve">预定</a></td>#}
-                {#                    </tr>#}
-                {#                    <tr>#}
-                {#                        <td>北京-深圳</td>#}
-                {#                        <td>10-15</td>#}
-                {#                        <td class="price">¥561</td>#}
-                {#                        <td>¥52</td>#}
-                {#                        <td>有</td>#}
-                {#                        <td>西部航空</td>#}
-                {#                        <td><a href="###" class="reserve">预定</a></td>#}
-                {#                    </tr>#}
-                {#                    <tr>#}
-                {#                        <td>北京-杭州</td>#}
-                {#                        <td>10-15</td>#}
-                {#                        <td class="price">¥378</td>#}
-                {#                        <td>¥36</td>#}
-                {#                        <td>无</td>#}
-                {#                        <td>天津航空</td>#}
-                {#                        <td><a href="###" class="reserve">预定</a></td>#}
-                {#                    </tr>#}
-                {#                    <tr>#}
-                {#                        <td>北京-广州</td>#}
-                {#                        <td>10-15</td>#}
-                {#                        <td class="price">¥612</td>#}
-                {#                        <td>¥44</td>#}
-                {#                        <td>有</td>#}
-                {#                        <td>首都航空</td>#}
-                {#                        <td><a href="###" class="reserve">预定</a></td>#}
-                {#                    </tr>#}
-                {#                    <tr>#}
-                {#                        <td>北京-重庆</td>#}
-                {#                        <td>10-15</td>#}
-                {#                        <td class="price">¥428</td>#}
-                {#                        <td>¥62</td>#}
-                {#                        <td>有</td>#}
-                {#                        <td>东方航空</td>#}
-                {#                        <td><a href="###" class="reserve">预定</a></td>#}
-                {#                    </tr>#}
-                {#                    <tr>#}
-                {#                        <td>北京-昆明</td>#}
-                {#                        <td>10-15</td>#}
-                {#                        <td class="price">¥509</td>#}
-                {#                        <td>¥35</td>#}
-                {#                        <td>无</td>#}
-                {#                        <td>厦门航空</td>#}
-                {#                        <td><a href="###" class="reserve">预定</a></td>#}
-                {#                    </tr>#}
-                {#                    <tr>#}
-                {#                        <td>北京-厦门</td>#}
-                {#                        <td>10-15</td>#}
-                {#                        <td class="price">¥893</td>#}
-                {#                        <td>¥73</td>#}
-                {#                        <td>有</td>#}
-                {#                        <td>深圳航空</td>#}
-                {#                        <td><a href="###" class="reserve">预定</a></td>#}
-                {#                    </tr>#}
-                {#                    <tr>#}
-                {#                        <td>北京-长沙</td>#}
-                {#                        <td>10-15</td>#}
-                {#                        <td class="price">¥663</td>#}
-                {#                        <td>¥46</td>#}
-                {#                        <td>无</td>#}
-                {#                        <td>四川航空</td>#}
-                {#                        <td><a href="###" class="reserve">预定</a></td>#}
-                {#                    </tr>#}
-                {#                    </tbody>#}
-                {##}
-                {#                </table>#}
                 <table>
                     <thead>
                     <tr class="th" id="float">
@@ -305,6 +207,38 @@
                         <th width="66" colspan="1" rowspan="1">无座</th>
                         <th width="66" colspan="1" rowspan="1">其他</th>
                         <th class="last" colspan="1" rowspan="1">备注</th>
+                    </tr>
+                    <tr class="th" id="detail">
+                        <td width="90" colspan="1" rowspan="1">车次</td>
+                        <td width="100" colspan="1" rowspan="1">出发站<br clear="none">
+                            到达站
+                        </td>
+                        <td width="82" colspan="1" rowspan="1" id="startendtime"><span class="b1" id="s_time"
+                                                                                       style="cursor: pointer;">出发时间</span><br><span
+                                class="b2" id="r_time" style="cursor: pointer;">到达时间</span></td>
+                        <td width="82" colspan="1" rowspan="1"><span class="b3" id="l_s"
+                                                                     style="cursor: pointer;">历时</span>
+                        </td>
+                        <td width="66" colspan="1" rowspan="1">商务座<br clear="none">
+                            特等座
+                        </td>
+                        <td width="66" colspan="1" rowspan="1">一等座</td>
+                        <td width="66" colspan="1" rowspan="1">二等座</td>
+                        <td width="66" colspan="1" rowspan="1">高级<br clear="none">
+                            软卧
+                        </td>
+                        <td width="66" colspan="1" rowspan="1">软卧<br clear="none">
+                            一等卧
+                        </td>
+                        <td width="66" colspan="1" rowspan="1">动卧</td>
+                        <td width="66" colspan="1" rowspan="1">硬卧<br clear="none">
+                            二等卧
+                        </td>
+                        <td width="66" colspan="1" rowspan="1">软座</td>
+                        <td width="66" colspan="1" rowspan="1">硬座</td>
+                        <td width="66" colspan="1" rowspan="1">无座</td>
+                        <td width="66" colspan="1" rowspan="1">其他</td>
+                        <td class="last" colspan="1" rowspan="1">备注</td>
                     </tr>
                     <tbody id="queryLeftTable">
                     </tbody>
