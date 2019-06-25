@@ -15,14 +15,42 @@
 
 <body>
     <header id="header">
+        {% if uname %}
+        <div id="cart">
+            <b>
+                <ul>
+                    <li class="home"><a href="javascript:void(0)">欢迎您,{{ uname }}</a>
+                        <ol class='info1'>
+                            <li><a href="/user/topUp">我的钱包</a></li>
+                            <li><a href="/user/cart">我的订单</a></li>
+                            <li><a href="/user">退出登录</a></li>
+                        </ol>
+                    </li>
+                </ul>
+            </b>
+        </div>
+        {% else %}
+        <div class="login">
+            <b>
+                <div id="register">
+                    <a href="/user/register">免费注册</a>
+                </div>
+            </b>
+            <b>
+                <div id="login">
+                    <a href="/user/login">您好,请登录</a>
+                </div>
+            </b>
+        </div>
+        {% endif %}
         <div class="center">
             <h1 class="logo">
-                <a href="../index.html" id="logoA">乐途旅行网</a>
+                <a href="../index" id="logoA">乐途旅行网</a>
             </h1>
             <nav>
                 <ul class="link">
                     <h1 class="none">网站导航</h1>
-                    <li><a href="/">首页</a></li>
+                    <li><a href="/user">首页</a></li>
                     <li class="active"><a href="/scenic">景点门票</a></li>
                     <li><a href="/trip">交通出行</a></li>
                     <li><a href="/hotel">酒店预定</a></li>
@@ -32,6 +60,7 @@
 
         </div>
     </header>
+    {% load static %}
     <div id="headline" style="background-image:url({% static 'images/scenic/information2/headline.jpg' %})">
         <div class="center">
             <hgroup>
@@ -352,7 +381,7 @@
                     </article>
                     <div class="buy">
                         <div class="price">￥<strong>60起</strong><s>￥７０</s></div>
-                        <!--<div class="reserve"><a href="ticket.html">立即抢购</a></div>-->
+                        <!--<div class="reserve"><a href="ticket">立即抢购</a></div>-->
                         <div class="reserve"><a href="/scenic/ticket">立即抢购</a></div>
 
                     </div>

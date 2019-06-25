@@ -20,20 +20,37 @@
 <script src="{% static 'js/scenic/tic.js' %}"></script>
 <body>
     <header id="header">
-        <div class="login">
+        {% if uname %}
+        <div id="cart">
             <b>
-                <div id="cart"><a href="">我的订单</a></div>
-            </b>
-            <b>
-                <div id="register"><a href="/user/register">免费注册</a></div>
-            </b>
-            <b>
-                <div id="login"><a href="/user/login">您好,请登录</a></div>
+                <ul>
+                    <li class="home"><a href="javascript:void(0)">欢迎您,{{ uname }}</a>
+                        <ol class='info1'>
+                            <li><a href="/user/topUp">我的钱包</a></li>
+                            <li><a href="/user/cart">我的订单</a></li>
+                            <li><a href="/user">退出登录</a></li>
+                        </ol>
+                    </li>
+                </ul>
             </b>
         </div>
+        {% else %}
+        <div class="login">
+            <b>
+                <div id="register">
+                    <a href="/user/register">免费注册</a>
+                </div>
+            </b>
+            <b>
+                <div id="login">
+                    <a href="/user/login">您好,请登录</a>
+                </div>
+            </b>
+        </div>
+        {% endif %}
         <div class="center">
             <h1 class="logo">
-                <a href="index.html" id="logoA">乐途旅行网</a>
+                <a href="/user" id="logoA">乐途旅行网</a>
             </h1>
 
             <nav>
@@ -141,7 +158,7 @@
                     <div class="gcount">
                         <!--阻止超链接默认事件-->
                         <a href="javascript:void(0)" class="minus">-</a>
-                        <input type="text" value="1" name='2'>
+                        <input type="text" value="1" name='a1' required>
                         <a href="javascript:void(0)" class="add">+</a>
                     </div>
                     <div class="gsum">￥80.00</div>
@@ -167,7 +184,7 @@
                         <!--阻止超链接默认事件-->
                         
                         <a href="javascript:void(0)" class="minus">-</a>
-                        <input type="text" value="1" name='2'>
+                        <input type="text" value="1" name='a2' required>
                         <a href="javascript:void(0)" class="add">+</a>
                     </div>
                     <div class="gsum">￥ 40.00</div>
