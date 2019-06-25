@@ -5,8 +5,9 @@ from . import views
 urlpatterns = [
     # url(r'^admin/', admin.site.urls),
     url('^$', views.index),
-    url(r'^index', views.index),
-    url(r'^login', views.login),
-    url(r'^register', views.register),
-    url(r'^cart',views.cart),
+    url(r'^index$', views.index),
+    url(r'^login$', views.login),
+    url(r'^register$', views.register),
+    url(r'^cart$', views.cart),
+    url(r'^forget$', views.forget)
 ]
