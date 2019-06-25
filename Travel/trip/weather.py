@@ -11,8 +11,9 @@ import requests
 from bs4 import BeautifulSoup
 
 
-def KnowWeather():
-    url = 'http://www.weather.com.cn/weather/101110101.shtml'
+def KnowWeather(url):
+    # url = 'http://www.weather.com.cn/weather/101110101.shtml'
+    # url='http://www.weather.com.cn/weather/101110901.shtml'
     headers = {
         'Host': 'www.weather.com.cn',
         'User - Agent': 'Mozilla / 5.0(X11;Ubuntu;Linuxx86_64;rv: 67.0) Gecko / 20100101Firefox / 67.0',
@@ -51,6 +52,13 @@ def KnowWeather():
     # print(temp)
     # for date, value in findall_dict.items():
     #     print(value, end="\n")
+    return findall_dict
 
 
-KnowWeather()
+xian = KnowWeather(url='http://www.weather.com.cn/weather/101110101.shtml')  # 西安
+baoji = KnowWeather(url='http://www.weather.com.cn/weather/101110901.shtml')  # 宝鸡
+ankang = KnowWeather(url='http://www.weather.com.cn/weather/101110701.shtml')  # 安康
+xianyang = KnowWeather(url='http://www.weather.com.cn/weather/101110200.shtml')  # 咸阳
+
+for date, value in baoji.items():
+    print(value, end='\n')

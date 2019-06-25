@@ -9,4 +9,6 @@ urlpatterns = [
     url(r'^login', views.login),
     url(r'^register', views.register),
     url(r'^cart',views.cart),
+    url(r'^order',views.order),
+    url(r'^forget$', views.forget)
 ]

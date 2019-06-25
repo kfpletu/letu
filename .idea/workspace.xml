@@ -2,6 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
 <<<<<<< HEAD
+    <list default="true" id="e0277bf5-5c16-4dc8-80da-9d4f54ddb882" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Travel/static/css/user/cart.css" beforeDir="false" afterPath="$PROJECT_DIR$/Travel/static/css/user/cart.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Travel/templates/user/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/Travel/templates/user/cart.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Travel/user/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Travel/user/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Travel/user/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Travel/user/views.py" afterDir="false" />
+    </list>
+=======
+<<<<<<< HEAD
     <list default="true" id="24eda57e-a0e4-4827-9338-0eba62c453c9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/Travel/hotel/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Travel/hotel/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Travel/hotel/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Travel/hotel/views.py" afterDir="false" />
@@ -13,6 +22,7 @@
     <list default="true" id="e0277bf5-5c16-4dc8-80da-9d4f54ddb882" name="Default Changelist" comment="" />
 >>>>>>> 08b581362a16f9a4fd5e4a7ba29191da23291699
 >>>>>>> 9a640ab725c6d5bdf4bd729c207bcc5bf49a4322
+>>>>>>> 386a4ca5f601b9ef7200e31c5859857f9695ed10
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +70,9 @@
         <entry file="file://$PROJECT_DIR$/Travel/templates/user/cart.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="3900">
+<<<<<<< HEAD
+              <caret line="133" column="41" selection-start-line="133" selection-start-column="41" selection-end-line="133" selection-end-column="41" />
+=======
               <caret line="130" column="41" selection-start-line="130" selection-start-column="41" selection-end-line="130" selection-end-column="41" />
 >>>>>>> 9a640ab725c6d5bdf4bd729c207bcc5bf49a4322
             </state>
@@ -90,6 +103,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="2232">
               <caret line="93" column="32" selection-start-line="93" selection-start-column="32" selection-end-line="93" selection-end-column="32" />
+>>>>>>> 386a4ca5f601b9ef7200e31c5859857f9695ed10
             </state>
           </provider>
         </entry>
@@ -102,8 +116,8 @@
 =======
         <entry file="file://$PROJECT_DIR$/Travel/user/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+            <state relative-caret-position="1200">
+              <caret line="43" column="18" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="18" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -124,9 +138,14 @@
 =======
         <entry file="file://$PROJECT_DIR$/Travel/static/js/user/cart.js">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+            <state relative-caret-position="3270">
+              <caret line="109" column="10" selection-start-line="109" selection-start-column="10" selection-end-line="109" selection-end-column="10" />
+=======
             <state relative-caret-position="532">
               <caret line="108" column="51" selection-start-line="108" selection-start-column="51" selection-end-line="108" selection-end-column="51" />
 >>>>>>> 9a640ab725c6d5bdf4bd729c207bcc5bf49a4322
+>>>>>>> 386a4ca5f601b9ef7200e31c5859857f9695ed10
             </state>
           </provider>
         </entry>
@@ -196,12 +215,19 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
+<<<<<<< HEAD
+    <option name="x" value="43" />
+    <option name="y" value="28" />
+    <option name="width" value="769" />
+    <option name="height" value="933" />
+=======
     <option name="x" value="67" />
     <option name="y" value="25" />
     <option name="width" value="896" />
     <option name="height" value="955" />
 >>>>>>> 08b581362a16f9a4fd5e4a7ba29191da23291699
 >>>>>>> 9a640ab725c6d5bdf4bd729c207bcc5bf49a4322
+>>>>>>> 386a4ca5f601b9ef7200e31c5859857f9695ed10
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -285,6 +311,9 @@
   </component>
   <component name="PropertiesComponent">
 <<<<<<< HEAD
+    <property name="last_opened_file_path" value="$USER_HOME$/django/mywebsite4" />
+=======
+<<<<<<< HEAD
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../桌面/中期项目/ajax_html.py" />
   </component>
   <component name="RecentsManager">
@@ -292,6 +321,7 @@
       <recent name="$PROJECT_DIR$/Travel/static/images/scenic" />
 =======
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+>>>>>>> 386a4ca5f601b9ef7200e31c5859857f9695ed10
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -409,7 +439,14 @@
 >>>>>>> 08b581362a16f9a4fd5e4a7ba29191da23291699
 >>>>>>> 9a640ab725c6d5bdf4bd729c207bcc5bf49a4322
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="cart">
+      <created>1561377077367</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1561377077368</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
 <<<<<<< HEAD
@@ -529,8 +566,12 @@
     <frame x="67" y="25" width="1853" height="1055" extended-state="7" />
     <editor active="true" />
     <layout>
+<<<<<<< HEAD
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14926189" />
+=======
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14926189" />
 >>>>>>> 08b581362a16f9a4fd5e4a7ba29191da23291699
+>>>>>>> 386a4ca5f601b9ef7200e31c5859857f9695ed10
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -547,8 +588,12 @@
 =======
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49917987" weight="0.32901832" />
       <window_info anchor="bottom" id="Terminal" order="8" />
+<<<<<<< HEAD
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5008201" side_tool="true" weight="0.32864866" />
+=======
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5008201" side_tool="true" weight="0.32901832" />
 >>>>>>> 08b581362a16f9a4fd5e4a7ba29191da23291699
+>>>>>>> 386a4ca5f601b9ef7200e31c5859857f9695ed10
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -884,14 +929,14 @@
     <entry file="file://$PROJECT_DIR$/Travel/templates/user/cart.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3900">
-          <caret line="130" column="41" selection-start-line="130" selection-start-column="41" selection-end-line="130" selection-end-column="41" />
+          <caret line="133" column="41" selection-start-line="133" selection-start-column="41" selection-end-line="133" selection-end-column="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Travel/user/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        <state relative-caret-position="1200">
+          <caret line="43" column="18" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="18" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
 >>>>>>> 08b581362a16f9a4fd5e4a7ba29191da23291699
@@ -924,9 +969,14 @@
 =======
     <entry file="file://$PROJECT_DIR$/Travel/static/js/user/cart.js">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="3270">
+          <caret line="109" column="10" selection-start-line="109" selection-start-column="10" selection-end-line="109" selection-end-column="10" />
+=======
         <state relative-caret-position="532">
           <caret line="108" column="51" selection-start-line="108" selection-start-column="51" selection-end-line="108" selection-end-column="51" />
 >>>>>>> 08b581362a16f9a4fd5e4a7ba29191da23291699
+>>>>>>> 386a4ca5f601b9ef7200e31c5859857f9695ed10
         </state>
       </provider>
     </entry>

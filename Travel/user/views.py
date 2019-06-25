@@ -43,8 +43,14 @@ def register(request):
 #购物车
 def cart(request):
     return render(request,'user/cart.html')
-
+#历史记录
+def order(request):
+    return render(request,'user/order.html')
 
 def index(request):
     uname=''
     return render(request, 'index.html', locals())
+
+# 忘记密码
+def forget(request):
+    return render(request,'user/forget.html')

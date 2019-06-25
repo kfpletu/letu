@@ -18,7 +18,7 @@
         <div class="login">
             <b>
                 <div id="cart">
-                    <a href="">个人信息</a>
+                    <a href="user/order.html">历史订单</a>
                 </div>
             </b>
         </div>
@@ -40,6 +40,7 @@
             
         </div>   
     </header>
+    {% block order %}
     <div id="main">
         <!--购物车顶部-->
         <h2>
@@ -61,6 +62,7 @@
         <!--商品展示-->
         <div id="content">
             <!--商品记录-->
+            <!-- {% for book in books %} -->
             <div class="item">
                 <div class="check">
                     <img src="{% static '/images/user/product_normal.png' %}" class="checkItem">
@@ -84,6 +86,7 @@
                     <div class="gsum">￥ 299.00</div>    
                     <div class="action">删除</div>
             </div>
+            <!-- {% endfor %} -->
             <div id="box1">
                 <p>是否要结算？</p>
                 <button>是</button>
@@ -125,7 +128,9 @@
                 </p>
             </div>
         </div>
+        </div>
     </div>
+    {% endblock order %}
     <div class="bottom">
         <p>Copyright ©LT 乐途旅行网 | 陕ICP备120110109号 | 旅行网经营许可证： L-LT-BK12345</p>
         <img src="{% static '/images/home/pic.gif' %}" title="站长统计">
