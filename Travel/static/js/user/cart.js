@@ -106,13 +106,13 @@ function sum(){
     $(".total-num").html(num);
     $(".total-price").html(price);
     if($(".checkItem[checked]").length){
-        $(".result input").css("background","red")
+        $(".result input").css("background","red");
     }else{
-        $(".result input").css("background","gray")
+        $(".result input").css("background","gray");
     }
     //显示空空如也
     if($("#content .item").length==0){
-        $("#empty").css("display","block")
+        $("#empty").css("display","block");
     }
 
 }
