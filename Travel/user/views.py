@@ -43,7 +43,9 @@ def register(request):
 #购物车
 def cart(request):
     return render(request,'user/cart.html')
-
+#历史记录
+def order(request):
+    return render(request,'user/order.html')
 
 def index(request):
     uname=''
