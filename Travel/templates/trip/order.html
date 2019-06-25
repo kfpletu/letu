@@ -10,7 +10,6 @@
     <link rel="stylesheet" href="/static/css/basic.css">
     <link rel="stylesheet" href="/static/css/trip/order.css">
     <link rel="stylesheet" href="/static/css/trip/new_order.css">
-    <!-- <script src="../js/Calendar.js"></script> -->
     <script src="/static/js/jquery.js"></script>
     <script src="/static/js/hotel/layDate-v5.0.9/laydate/laydate.js"></script> <!-- 改成你的路径 -->
     <script>
@@ -27,6 +26,34 @@
 </head>
 <body>
 <header id="header">
+    {% if uname %}
+    <div id="cart">
+        <b>
+            <ul>
+                <li class="home"><a href="javascript:void(0)">欢迎您,{{ uname }}</a>
+                    <ol class='info1'>
+                        <li><a href="./html/topUp.html">我的钱包</a></li>
+                        <li><a href="/user/cart.html'">我的订单</a></li>
+                        <li><a href="/user">退出登录</a></li>
+                    </ol>
+                </li>
+            </ul>
+        </b>
+    </div>
+    {% else %}
+    <div class="login">
+        <b>
+            <div id="register">
+                <a href="/user/register">免费注册</a>
+            </div>
+        </b>
+        <b>
+            <div id="login">
+                <a href="/user/login">您好,请登录</a>
+            </div>
+        </b>
+    </div>
+    {% endif %}
     <div class="center">
         <h1 class="logo">
             <a href="/user" id="logoA">乐途旅行网</a>
