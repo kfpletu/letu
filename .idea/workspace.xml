@@ -2,10 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
 <<<<<<< HEAD
+    <list default="true" id="24eda57e-a0e4-4827-9338-0eba62c453c9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Travel/hotel/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Travel/hotel/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Travel/hotel/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Travel/hotel/views.py" afterDir="false" />
+    </list>
+=======
+<<<<<<< HEAD
     <list default="true" id="41a13278-d4a0-4f07-a6da-8c63ad40ca18" name="Default Changelist" comment="uu" />
 =======
     <list default="true" id="e0277bf5-5c16-4dc8-80da-9d4f54ddb882" name="Default Changelist" comment="" />
 >>>>>>> 08b581362a16f9a4fd5e4a7ba29191da23291699
+>>>>>>> 9a640ab725c6d5bdf4bd729c207bcc5bf49a4322
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,6 +20,17 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
+<<<<<<< HEAD
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Travel/hotel/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
+=======
 <<<<<<< HEAD
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
 =======
@@ -22,20 +40,66 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1290">
               <caret line="43" column="13" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
+>>>>>>> 9a640ab725c6d5bdf4bd729c207bcc5bf49a4322
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
+        <entry file="file://$PROJECT_DIR$/Travel/Travel/__init__.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Travel/templates/hotel/hotel_ticket.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2424">
+              <caret line="101" column="21" selection-start-line="101" selection-start-column="21" selection-end-line="101" selection-end-column="21" />
+=======
         <entry file="file://$PROJECT_DIR$/Travel/templates/user/cart.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="3900">
               <caret line="130" column="41" selection-start-line="130" selection-start-column="41" selection-end-line="130" selection-end-column="41" />
+>>>>>>> 9a640ab725c6d5bdf4bd729c207bcc5bf49a4322
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
+        <entry file="file://$PROJECT_DIR$/Travel/templates/hotel/order_hotel.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="8184">
+              <caret line="341" column="29" selection-start-line="341" selection-start-column="29" selection-end-line="341" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Travel/Travel/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="600">
+              <caret line="26" column="34" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Travel/Travel/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2232">
+              <caret line="93" column="32" selection-start-line="93" selection-start-column="32" selection-end-line="93" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Travel/hotel/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+=======
         <entry file="file://$PROJECT_DIR$/Travel/user/views.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="450">
@@ -43,28 +107,64 @@
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
+>>>>>>> 9a640ab725c6d5bdf4bd729c207bcc5bf49a4322
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+<<<<<<< HEAD
+        <entry file="file://$PROJECT_DIR$/Travel/hotel/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
+=======
         <entry file="file://$PROJECT_DIR$/Travel/static/js/user/cart.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="532">
               <caret line="108" column="51" selection-start-line="108" selection-start-column="51" selection-end-line="108" selection-end-column="51" />
+>>>>>>> 9a640ab725c6d5bdf4bd729c207bcc5bf49a4322
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+<<<<<<< HEAD
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
+=======
 >>>>>>> 08b581362a16f9a4fd5e4a7ba29191da23291699
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+>>>>>>> 9a640ab725c6d5bdf4bd729c207bcc5bf49a4322
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+<<<<<<< HEAD
+        <option value="$PROJECT_DIR$/Travel/templates/hotel/order_hotel.html" />
+        <option value="$PROJECT_DIR$/Travel/templates/hotel/hotel_ticket.html" />
+        <option value="$PROJECT_DIR$/Travel/hotel/models.py" />
+        <option value="$PROJECT_DIR$/Travel/hotel/urls.py" />
+        <option value="$PROJECT_DIR$/Travel/hotel/views.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="408" />
+    <option name="y" value="27" />
+    <option name="width" value="1613" />
+    <option name="height" value="963" />
+=======
 <<<<<<< HEAD
         <option value="$PROJECT_DIR$/Travel/scenic/views.py" />
         <option value="$PROJECT_DIR$/Travel/templates/scenic/information02.html" />
@@ -101,13 +201,17 @@
     <option name="width" value="896" />
     <option name="height" value="955" />
 >>>>>>> 08b581362a16f9a4fd5e4a7ba29191da23291699
+>>>>>>> 9a640ab725c6d5bdf4bd729c207bcc5bf49a4322
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
+=======
       <pane id="Scope" />
+>>>>>>> 9a640ab725c6d5bdf4bd729c207bcc5bf49a4322
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -121,23 +225,34 @@
               <item name="Travel" type="462c0819:PsiDirectoryNode" />
             </path>
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
             <path>
               <item name="letu" type="b2602c69:ProjectViewProjectNode" />
               <item name="letu" type="462c0819:PsiDirectoryNode" />
               <item name="Travel" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
+>>>>>>> 9a640ab725c6d5bdf4bd729c207bcc5bf49a4322
             <path>
               <item name="letu" type="b2602c69:ProjectViewProjectNode" />
               <item name="letu" type="462c0819:PsiDirectoryNode" />
               <item name="Travel" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
+              <item name="hotel" type="462c0819:PsiDirectoryNode" />
+=======
               <item name="static" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
+>>>>>>> 9a640ab725c6d5bdf4bd729c207bcc5bf49a4322
             </path>
             <path>
               <item name="letu" type="b2602c69:ProjectViewProjectNode" />
               <item name="letu" type="462c0819:PsiDirectoryNode" />
               <item name="Travel" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
+              <item name="scenic" type="462c0819:PsiDirectoryNode" />
+            </path>
+=======
               <item name="static" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
               <item name="scenic" type="462c0819:PsiDirectoryNode" />
@@ -151,10 +266,21 @@
             </path>
 =======
 >>>>>>> 08b581362a16f9a4fd5e4a7ba29191da23291699
+>>>>>>> 9a640ab725c6d5bdf4bd729c207bcc5bf49a4322
           </expand>
           <select />
         </subPane>
       </pane>
+<<<<<<< HEAD
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+=======
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -175,6 +301,7 @@
       <recent name="$PROJECT_DIR$/Travel/templates/user" />
 >>>>>>> 08b581362a16f9a4fd5e4a7ba29191da23291699
     </key>
+>>>>>>> 9a640ab725c6d5bdf4bd729c207bcc5bf49a4322
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -193,6 +320,38 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+<<<<<<< HEAD
+      <changelist id="24eda57e-a0e4-4827-9338-0eba62c453c9" name="Default Changelist" comment="" />
+      <created>1561195633632</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1561195633632</updated>
+      <workItem from="1561195646996" duration="16000" />
+      <workItem from="1561335114658" duration="13175000" />
+      <workItem from="1561374424455" duration="5346000" />
+      <workItem from="1561423190462" duration="243000" />
+    </task>
+    <task id="LOCAL-00001" summary="k">
+      <created>1561345722094</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1561345722094</updated>
+    </task>
+    <task id="LOCAL-00002" summary="k">
+      <created>1561377567975</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1561377567975</updated>
+    </task>
+    <task id="LOCAL-00003" summary="k">
+      <created>1561377624868</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1561377624868</updated>
+=======
 <<<<<<< HEAD
       <changelist id="41a13278-d4a0-4f07-a6da-8c63ad40ca18" name="Default Changelist" comment="" />
       <created>1561254064287</created>
@@ -248,10 +407,119 @@
       <option name="project" value="LOCAL" />
       <updated>1561345044856</updated>
 >>>>>>> 08b581362a16f9a4fd5e4a7ba29191da23291699
+>>>>>>> 9a640ab725c6d5bdf4bd729c207bcc5bf49a4322
     </task>
     <option name="localTasksCounter" value="4" />
     <servers />
   </component>
+<<<<<<< HEAD
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="18864000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="408" y="27" width="1613" height="963" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15310699" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="DB Browser" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3299748" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49927008" weight="0.3294702" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.78819877" weight="0.27208975" />
+      <window_info anchor="bottom" id="DB Execution Console" order="9" />
+      <window_info anchor="bottom" id="Database Changes" order="10" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.7264574" visible="true" weight="0.2930403" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.2735426" side_tool="true" visible="true" weight="0.2930403" />
+      <window_info anchor="bottom" id="Python Console" order="13" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="k" />
+    <option name="LAST_COMMIT_MESSAGE" value="k" />
+    <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/letu$manage.coverage" NAME="manage Coverage Results" MODIFIED="1561186323881" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Travel" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Travel/trip/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+=======
   <component name="ToolWindowManager">
 <<<<<<< HEAD
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
@@ -356,6 +624,7 @@
     <entry file="file://$PROJECT_DIR$/Travel/hotel/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
+>>>>>>> 9a640ab725c6d5bdf4bd729c207bcc5bf49a4322
           <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
@@ -363,6 +632,26 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/Travel/trip/views.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Travel/static/css/hotel/hotel_ticket.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Travel/scenic/views.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Travel/scenic/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+=======
     <entry file="file://$PROJECT_DIR$/Travel/Travel/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="292">
@@ -386,20 +675,36 @@
           <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
+>>>>>>> 9a640ab725c6d5bdf4bd729c207bcc5bf49a4322
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/Travel/about/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+=======
     <entry file="file://$PROJECT_DIR$/Travel/user/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+>>>>>>> 9a640ab725c6d5bdf4bd729c207bcc5bf49a4322
           <folding>
             <element signature="e#0#32#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/Travel/hotel/hotel_db">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Travel/hotel/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+=======
     <entry file="file://$PROJECT_DIR$/Travel/scenic/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -432,12 +737,59 @@
         <state relative-caret-position="270">
           <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
 >>>>>>> 08b581362a16f9a4fd5e4a7ba29191da23291699
+>>>>>>> 9a640ab725c6d5bdf4bd729c207bcc5bf49a4322
           <folding>
             <element signature="e#0#32#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/Travel/Travel/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Travel/templates/hotel/hotel_ticket.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2424">
+          <caret line="101" column="21" selection-start-line="101" selection-start-column="21" selection-end-line="101" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Travel/templates/hotel/order_hotel.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8184">
+          <caret line="341" column="29" selection-start-line="341" selection-start-column="29" selection-end-line="341" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Travel/Travel/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="26" column="34" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Travel/Travel/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2232">
+          <caret line="93" column="32" selection-start-line="93" selection-start-column="32" selection-end-line="93" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Travel/hotel/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Travel/hotel/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+=======
 <<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/Travel/scenic/__init__.py">
 =======
@@ -543,10 +895,13 @@
           <folding>
             <element signature="e#0#35#0" expanded="true" />
 >>>>>>> 08b581362a16f9a4fd5e4a7ba29191da23291699
+>>>>>>> 9a640ab725c6d5bdf4bd729c207bcc5bf49a4322
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+=======
 <<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/Travel/static/js/scenic/order.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -575,5 +930,6 @@
         </state>
       </provider>
     </entry>
+>>>>>>> 9a640ab725c6d5bdf4bd729c207bcc5bf49a4322
   </component>
 </project>
