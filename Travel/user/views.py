@@ -53,4 +53,8 @@ def index(request):
 
 # 忘记密码
 def forget(request):
-    return render(request,'user/forget.html')
+    if request.method == 'GET':
+        return render(request, 'user/forget.html')
+    elif request.method == 'POST':
+        return render(request, 'user/forget_new.html')
+        
