@@ -11,11 +11,11 @@
 </head>
 <body>
     <div id="top">
-        <a href="/user">
+        <a href="/">
             <img src="/static/images/user/logo.png" alt="logo">
         </a>
         <span>{% block head %}欢迎登录{% endblock head %}</span>
-        <a href="/user"><span class="s1">返回首页</span></a>
+        <a href="/"><span class="s1">返回首页</span></a>
     </div>
     <div id="mian">
         <form action="{%block post%}/user/login{%endblock post%}" method="post">
@@ -55,7 +55,7 @@
         </form>
     </div>
     <div id="bottom">
-        <a href="/user">
+        <a href="/">
             <img src="/static/images/user/logo.png" alt="logo" id="logoImg">
         </a>
         <p>

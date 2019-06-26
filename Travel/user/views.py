@@ -52,9 +52,7 @@ def cart(request):
 def order(request):
     return render(request,'user/order.html')
 
-def index(request):
-    uname=''
-    return render(request, 'index.html', locals())
+
 
 # 忘记密码
 def forget(request):
@@ -74,7 +72,7 @@ def getpwd(request):
     if request.method == 'GET':
         return render(request, 'user/forget.html')
     elif request.method == 'POST':
-        
+
         # 获取用户输入的新密码
         new_pwd = request.POST.get('new_pwd')
         new_pwd_again = request.POST.get('new_pwd_again')
