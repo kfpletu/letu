@@ -12,6 +12,7 @@ class RoomManager(admin.ModelAdmin):
     list_display = ['id','room_name','hotel_id']
     # list_editable = ['room_name']
     list_display_links=['room_name']
+    list_filter = ['hotel_id']
 
 admin.site.register(models.Hotel,HotelManager)
 admin.site.register(models.Room,RoomManager)

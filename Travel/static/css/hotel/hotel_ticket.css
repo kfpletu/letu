@@ -12,7 +12,7 @@ body{
     margin-top: 40px;
     position: relative;
     overflow: hidden;
-    height: 450px;
+    height: 480px;
 }
 #bodyer1>div:nth-child(1){
     font-size: 25px;
@@ -61,6 +61,7 @@ body{
     border-radius: 2px;
 	position: relative;
     margin: 5px 0;
+    margin-left: 10px;
     white-space: nowrap;
     overflow: hidden; 
     transition-duration: .8s;
@@ -121,7 +122,7 @@ body{
 }
 .sDetails .hotel_info:nth-child(2){
        box-sizing: border-box;
-       padding: 30px;
+       padding: 20px;
 }
 .sDetails .hotel_info .wifi{
     float: left;
@@ -292,6 +293,9 @@ body{
 .item .gpt p:nth-child(1){
     margin-top: 20px;
     margin-bottom: 10px;
+}
+.item .gpt input{
+    width: 150px;
 }
 .gprice h3{
     color:#997679;
