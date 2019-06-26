@@ -10,5 +10,6 @@ urlpatterns = [
     url(r'^order',views.order),
     url(r'^forget$', views.forget),
     url(r'^getpwd$', views.getpwd),
+    url(r'^logout$', views.logout),
     
 ]
