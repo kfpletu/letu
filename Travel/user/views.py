@@ -25,6 +25,7 @@ def login(request):
                 return render(request,'index.html',locals())
             else:
                 continue
+        # 循环完所有结果,说明用户名密码不正确,刷新当前登录页面
         return render(request,'user/login.html')
 
 #注册
