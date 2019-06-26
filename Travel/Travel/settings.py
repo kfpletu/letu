@@ -41,7 +41,8 @@ INSTALLED_APPS = [
     'about',
     'scenic',
     'trip',
-    'user'
+    'user',
+    'index'
 ]
 
 MIDDLEWARE = [
