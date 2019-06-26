@@ -12,6 +12,11 @@ def login(request):
         # 获取登录页面form表单提交的uname和upwd
         uname = request.POST.get('uname')
         upwd = request.POST.get('upwd')
+
+        # 获取验证码
+        validateCode = request.POST.get('validateCode')
+
+
         # 从数据库获取uname和upwd
         infos = Info.objects.values('uname', 'upwd')
         # 循环判断输入的uname和upwd是否相等
@@ -56,5 +61,24 @@ def forget(request):
     if request.method == 'GET':
         return render(request, 'user/forget.html')
     elif request.method == 'POST':
+
+        # 获取用户输入的信息
+        uname = request.POST.get('uname') # 用户名
+        phone = request.POST.get('phone') # 电话号码
+        email = request.POST.get('email') # 邮箱
+        validateCode = request.POST.get('validateCode') # 验证码
+        
         return render(request, 'user/forget_new.html')
+
+def getpwd(request):
+    if request.method == 'GET':
+        return render(request, 'user/forget.html')
+    elif request.method == 'POST':
+        
+        # 获取用户输入的新密码
+        new_pwd = request.POST.get('new_pwd')
+        new_pwd_again = request.POST.get('new_pwd_again')
+        
+        
+        return render(request, 'user/login.html')
         

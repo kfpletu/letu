@@ -10,5 +10,7 @@ urlpatterns = [
     url(r'^register', views.register),
     url(r'^cart',views.cart),
     url(r'^order',views.order),
-    url(r'^forget$', views.forget)
+    url(r'^forget$', views.forget),
+    url(r'^getpwd$', views.getpwd),
+    
 ]
