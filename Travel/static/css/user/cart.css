@@ -80,9 +80,9 @@
     color: #808080;
 }
 .type div{
-    float: left;
     text-align: center;
     line-height: 36px;
+    float: left;
 }
 .check{
     width: 10%;
@@ -108,6 +108,7 @@
     width: 13%;
     background-color: #f1f3f4;
 }
+
 .checkAll{
     vertical-align: middle;
     background-color: #f1f3f4;
@@ -191,18 +192,9 @@
     width: 400px;
     height: 200px;
     background: orange;
-    position: fixed;
+    /* position: fixed; */
     margin-top: 20px;
     margin-left: 400px;
-}
-#content .wait{
-    width: 400px;
-    height: 200px;
-    display: none;
-    position: absolute;
-    margin-top: 80px;
-    margin-left: 400px;
-
 }
 #box1,#box2{
     border-radius:10px;
@@ -215,10 +207,13 @@
     font-size: 24px;
 }
 #box1 button{
-    width: 50px;
+    width: 20%;
     float:right;
     margin-top:40px;
     margin-right:50px;
+}
+#box1 button:hover{
+    background: orange;
 }
 #empty{
     width: 400px;
@@ -229,6 +224,14 @@
     font-size:24px;
     color: #ccc;
     text-align: center;
+}
+#imgca{
+    width: 150px;
+    height: 150px;
+    position: fixed;
+    bottom: 50%;
+    left: 8%;
+   
 }
 
 

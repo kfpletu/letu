@@ -9,3 +9,18 @@ class Info(models.Model):
     email = models.EmailField('邮箱')
 
 
+class Cart(models.Model):
+    ticket = models.ForeignKey(Ticket)
+    user = models.ForeignKey(Good)
+    good = models.ForeignKey(User)  
+
+
+class Order(models.Model):
+    cart_id = models.IntergerField('订单id' )
+    count = models.IntergerField('数量' default=1)
+	total_price = models.DecimalField('总金额',max_digits=10,decimal_places=2)
+    pay_time = models.DateTimeField(auto_now_add=True)
+    cart = models.ForeignKey(Cart)
+    
+
+   
