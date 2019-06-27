@@ -7,10 +7,12 @@ import os
 def index(request):
     if request.method=='GET':
         return render(request,'hotel/order_hotel.html')
+    elif request.method=='POST':
+        pass
 # def test(requesst,x):
 #     print(x)
 #     return HttpResponse('测试成功%s'%x)
-
+#导入酒店数据
 def init_hotel(request):
             pwd=os.path.dirname(__file__)
             hotel_db_path=os.path.join(pwd,'db.txt')
@@ -24,13 +26,33 @@ def init_hotel(request):
                 hotel.save()
             fd.close()
             return HttpResponse('初始化成功')
+#备份房间数据
+def backup(request):
+    fd = open("/home/tarena/桌面/test/中期项目/letu/Travel/static/images/hotel/room.txt", 'r+')
+    rooms=models.Room.objects.all()
+    for room in rooms:
+        str=room.room_name+'#'+room.area+'#'+room.price+'#'+room.window+'#'+room.bed+'\n'
+        fd.write(str)
+    fd.close()
+    return HttpResponse('复制成功')
 
-def init_room(request):
-    pass
+#设置house_id
+def init_house_id(request):
+    models.Room.objects.all().update(house_id=F('hotel_id'))
+    models.Hotel.objects.all().update(house_id=F('id'))
+    return HttpResponse('初始化成功')
 
+# 数据库主表数据导入
+def init_house(request):
+    fd = open("/home/tarena/桌面/test/中期项目/letu/Travel/static/images/hotel/house.txt", 'r+')
+    for line in fd:
+        list = line.split('#')
+        hotel = models.House(id=list[0],hotel_name=list[1])
+        hotel.save()
+    fd.close()
+    return HttpResponse('初始化成功')
 
-
-
+#详情表函数
 def hotel(request,id):
         id=int(id)
         hotel=models.Hotel.objects.get(id=id)
