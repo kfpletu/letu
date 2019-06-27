@@ -202,6 +202,10 @@
     font-size: 14px;
     padding: 5px 0 0 0;
     letter-spacing: 1px;
+<<<<<<< HEAD
+=======
+    /* line-height: 1.5px; */
+>>>>>>> 2b69953bebb6c8542ab2eba4ce8ff542ebf189e8
     height: 42px;
     overflow: auto;
 }
