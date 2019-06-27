@@ -16,14 +16,6 @@ def add_code_views(request):
     return HttpResponse('OK')
 
 
-def show_code(request):
-    try:
-        info1 = models.Trip.objects.get(station_name='北京')
-        info2 = models.Trip.objects.get(station_name='西安')
-        print(info1,info2)
-        return HttpResponse(f'{info1.station_code},{info2}')
-    except:
-        return HttpResponse("有错误")
 
 def search_views(request):
     if request.method == "GET":
