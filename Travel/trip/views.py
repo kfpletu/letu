@@ -1,12 +1,29 @@
 from django.http import HttpResponse
 from django.shortcuts import render, redirect
 from .trail_12306 import *
+from . import models
 
 
 # Create your views here.
 def trip_views(request):
     return render(request, 'trip/order.html')
 
+def add_code_views(request):
+    tt=TicketQuery()
+    station_code=tt.get_station_name()[0]
+    for station_name,code in station_code.items():
+        models.Trip.objects.create(station_name=station_name,station_code=code)
+    return HttpResponse('OK')
+
+
+def show_code(request):
+    try:
+        info1 = models.Trip.objects.get(station_name='北京')
+        info2 = models.Trip.objects.get(station_name='西安')
+        print(info1,info2)
+        return HttpResponse(f'{info1.station_code},{info2}')
+    except:
+        return HttpResponse("有错误")
 
 def search_views(request):
     if request.method == "GET":

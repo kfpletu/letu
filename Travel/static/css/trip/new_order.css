@@ -14,3 +14,10 @@ tr th{
 /*#query #detail td{*/
 /*    font-size: 15px;*/
 /*}*/
+#roll{
+    height: 850px;
+    /*border: 1px solid red;*/
+    width: 899px;
+    /*background: #00BCD4;*/
+    overflow: auto;
+}
