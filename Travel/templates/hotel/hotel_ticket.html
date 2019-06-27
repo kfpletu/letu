@@ -19,15 +19,15 @@
  <script src="../../static/js/hotel/layDate-v5.0.9/laydate/laydate.js"></script>
 <body>
     <header id="header">
-        {% if uname %}
+        {% if request.session.userinfo %}
         <div id="cart">
             <b>
                 <ul>
-                    <li class="home"><a href="javascript:void(0)">欢迎您,{{ uname }}</a>
+                    <li class="home"><a href="javascript:void(0)">欢迎您,{{ request.session.userinfo.uname }}</a>
                         <ol class='info1'>
                             <li><a href="/user/topUp">我的钱包</a></li>
                             <li><a href="/user/cart'">我的订单</a></li>
-                            <li><a href="/index">退出登录</a></li>
+                            <li><a href="/user/logout">退出登录</a></li>
                         </ol>
                     </li>
                 </ul>
@@ -89,7 +89,7 @@
         <div class="sDetails">
            <div class="hotel_info">
                <div id="hotel_info_1">4.5分</div>
-               <a href="##">1345位住客已评论</a>
+               <a href="##">{{ order_count }}位住客已评论</a>
 
            </div  >
            <div class="hotel_info">2011年装修 2011年开业

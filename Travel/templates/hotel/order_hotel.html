@@ -27,15 +27,15 @@
 
 <body>
     <header id="header">
-        {% if uname %}
+        {% if request.session.userinfo %}
         <div id="cart">
             <b>
                 <ul>
-                    <li class="home"><a href="javascript:void(0)">欢迎您,{{ uname }}</a>
+                    <li class="home"><a href="javascript:void(0)">欢迎您,{{ request.session.userinfo.uname }}</a>
                         <ol class='info1'>
                             <li><a href="/user/topUp">我的钱包</a></li>
                             <li><a href="/user/cart">我的订单</a></li>
-                            <li><a href="/">退出登录</a></li>
+                            <li><a href="/user/logout">退出登录</a></li>
                         </ol>
                     </li>
                 </ul>
@@ -141,18 +141,24 @@
         </aside>
         <div class="list order">
             <div class="brandListBox" id="brandListFirst">
-                <a href="">花样土耳其 10 日游</a>
-                <a href="">花样土耳其 10 日游</a>
-                <a href="">花样土耳其 10 日游</a>
-                <a href="">花样土耳其 10 日游</a>
-                <a href="">花样土耳其 10 日游</a>
-                <a href="">花样土耳其 10 日游</a>
-                <a href="">花样土耳其 10 日游</a>
-                <a href="">花样土耳其 10 日游</a>
-                <a href="">花样土耳其 10 日游</a>
+{#                <a href="">花样土耳其 10 日游</a>#}
+{#                <a href="">花样土耳其 10 日游</a>#}
+{#                <a href="">花样土耳其 10 日游</a>#}
+{#                <a href="">花样土耳其 10 日游</a>#}
+{#                <a href="">花样土耳其 10 日游</a>#}
+{#                <a href="">花样土耳其 10 日游</a>#}
+{#                <a href="">花样土耳其 10 日游</a>#}
+{#                <a href="">花样土耳其 10 日游</a>#}
+{#                <a href="">花样土耳其 10 日游</a>#}
+                {% for  weather in weather_list %}
+                        {% for wea in weather %}
+                            <a href="">{{ wea }}</a>}
+                        {% endfor %}
+                {% endfor %}
             </div>
             <div class="out-form">
-                <div class="form">
+                <form action="/hotel" method="post">
+                    <div class="form">
                     <h2>酒店预订</h2>
                     <p>
                         <ul class="infor">
@@ -217,6 +223,8 @@
 
                     </div>
                 </div>
+                </form>
+
                 <div>
                     <img src="../../static/images/hotel/out-form-img.jpeg">
                 </div>
@@ -227,13 +235,28 @@
                 <ul>
                     <li>热门品牌：</li>
                     <li><a href="">全部</a></li>
-                    <li><a href="javascript:void(0)">富力希尔顿</a></li>
-                    <li><a href="javascript:void(0)">锦江之星</a></li>
-                    <li><a href="javascript:void(0)">汉庭连锁</a></li>
-                    <li><a href="javascript:void(0)">开元名都</a></li>
-                    <li><a href="javascript:void(0)">爱情情侣</a></li>
+
+                  {% for house in house_list %}
+
+                        <li><a href="javascript:void(0)">{{ house.hotel_name }}</a></li>
+
+                  {% endfor %}
+
+{#                    <li><a href="javascript:void(0)">富力希尔顿</a></li>#}
+{#                    <li><a href="javascript:void(0)">锦江之星</a></li>#}
+{#                    <li><a href="javascript:void(0)">汉庭连锁</a></li>#}
+{#                    <li><a href="javascript:void(0)">开元名都</a></li>#}
+{#                    <li><a href="javascript:void(0)">爱情情侣</a></li>#}
                 </ul>
                 <div class="hotel_imfor">
+                {% for hotel in hotel_list %}
+                    <figure class="hotel_figure">
+                        <img src="/static/images/hotel/{{ hotel.hotel_p }}/11.png" alt="The Pulpit Rock" class="hotel_img">
+                        <span class="hotel_name">{{ hotel.hotel_name }}</span> {{ hotel.hotel_level }}
+                        <a href="{% url 'hotel' %}{{ hotel.id }}">点击进入</a>
+                    </figure>
+                   {% endfor %}
+                <!--
                     <figure class="hotel_figure">
                         <img src="/static/images/hotel/4/1/11.png" alt="The Pulpit Rock" class="hotel_img">
                         <span class="hotel_name">爱情情侣</span>酒店 主题套房
@@ -257,7 +280,7 @@
                     <figure class="hotel_figure">
                         <img src="/static/images/hotel/3/2/11.png" alt="The Pulpit Rock" class="hotel_img">
                         <span class="hotel_name">开元名都</span>酒店 星级酒店
-                        <a href="/hotel/32">点击进入</a>
+                        <a href="{% url 'hotel' %}32">点击进入</a>
                     </figure>
                     <figure class="hotel_figure">
                         <img src="/static/images/hotel/1/4/11.png" alt="The Pulpit Rock" class="hotel_img">
@@ -279,6 +302,7 @@
                         <span class="hotel_name">西安W</span>酒店 星级酒店
                         <a href="/hotel/33">点击进入</a>
                     </figure>
+                    -->
                 </div>
             </div>
             <div class="brandListBox">

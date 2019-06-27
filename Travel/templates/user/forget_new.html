@@ -13,6 +13,7 @@
 {% block new_pwd %}
     <b><span>请再次输入密码:</span></b>
     <input type="password" name='new_pwd_again'>
+    <p style="color: red;"> {{ pwd_error }} </p>
 {% endblock new_pwd %}
 {%block class%}{%endblock class%}
 {%block email%}{%endblock email%}
