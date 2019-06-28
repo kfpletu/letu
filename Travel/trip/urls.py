@@ -5,4 +5,5 @@ from .views import *
 urlpatterns = [
     url(r'^$',trip_views),
     url(r'^search',search_views),
+    url(r'^add_code',add_code_views),
 ]

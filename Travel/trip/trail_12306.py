@@ -8,7 +8,7 @@
 import re
 import ssl
 import urllib, urllib.parse
-
+from . import models
 import requests
 import urllib3
 
@@ -34,7 +34,7 @@ class TicketQuery:
             'X-Requested-With': 'XMLHttpRequest'
         }
 
-    def get_station_name(self, station_name):
+    def get_station_name(self):
         """
         '获取车站代码及其站名'
         :param station_name: 要查询的站名
@@ -45,12 +45,16 @@ class TicketQuery:
         # print(station)
         station_name_dict = dict(station)
         # print(station_name_dict)
-        return station_name_dict[station_name]
+        new_station_name_dict = dict(zip(station_name_dict.values(), station_name_dict.keys()))
+        return (station_name_dict,new_station_name_dict)
+
+    def get_station_daima(self, station_daima):
+        pass
 
     def query(self, from_station, to_station, date):
-        ticket={}
-        fromstation = self.get_station_name(from_station)
-        tostation = self.get_station_name(to_station)
+        ticket = {}
+        fromstation = self.get_station_name()[0][from_station]
+        tostation = self.get_station_name()[0][to_station]
         url = f'https://kyfw.12306.cn/otn/leftTicket/query?leftTicketDTO.train_date={date}&leftTicketDTO.from_station={fromstation}&leftTicketDTO.to_station={tostation}&purpose_codes=ADULT'
         # url = f'https://kyfw.12306.cn/otn/leftTicket/init?linktypeid=dc&fs={from_station_url},{fromstation}&ts={to_station_url},{tostation}&date={date}&flag=N,N,Y'
         # print(url)
@@ -93,9 +97,19 @@ class TicketQuery:
                     else:
                         print(str(num) + '.' + info[3] + '车次列车运行图调整,暂停发售')
                     num += 1
+                    try:
+                        info1=models.Trip.objects.get(station_code=info[6])
+                        info2=models.Trip.objects.get(station_code=info[7])
+
+                    except:
+                        pass
                     ticket_list.append(info[3])
-                    ticket_list.append(info[6])
-                    ticket_list.append(info[7])
+                    # ticket_list.append(info[6])
+                    ticket_list.append(info1.station_name)
+                    # ticket_list.append(self.get_station_name()[1][info[6]])
+                    ticket_list.append(info2.station_name)
+                    # ticket_list.append(info[7])
+                    # ticket_list.append(self.get_station_name()[1][info[7]])
                     ticket_list.append(info[8])
                     ticket_list.append(info[9])
                     ticket_list.append(info[10])
@@ -111,7 +125,7 @@ class TicketQuery:
                     ticket_list.append(info[26])
                     ticket_list.append(info[22])
                     ticket_list.append(info[1])
-                    ticket[info[3]]=ticket_list
+                    ticket[info[3]] = ticket_list
                     # ticket_dict["station_train_code"] = info[3]  # 获取车次信息，在3号位置
                     # ticket_dict["from_station_name"] = info[6]  # 始发站信息在6号位置
                     # ticket_dict["to_station_name"] = info[7]  # 终点站信息在7号位置
@@ -139,9 +153,9 @@ class TicketQuery:
 
 
 if __name__ == '__main__':
-#     tt = TicketQuery()
-#     # aa = tt.get_station_name('西安')
-#     # print(aa)
-#     aa = tt.query('西安', '兰州', '2019-06-26')
-#     print(aa)
+    #     tt = TicketQuery()
+    #     # aa = tt.get_station_name('西安')
+    #     # print(aa)
+    #     aa = tt.query('西安', '兰州', '2019-06-26')
+    #     print(aa)
     pass

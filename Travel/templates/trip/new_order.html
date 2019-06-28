@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="/static/css/trip/new_order.css">
     <script src="/static/js/jquery.js"></script>
     <script src="../../static/js/hotel/layDate-v5.0.9/laydate/laydate.js"></script>
+    <script src="/static/js/trip/order.js"></script>
 
 </head>
 
@@ -146,28 +147,29 @@
             <p>
             <ul class="infor">
                 <li>车票类型</li>
-                <li><a href="###">单程</a></li>
-                <li><a href="###">往返</a></li>
-
+                <li class="li"><a href="javascript:void (0)" class="bb">单程</a></li>
+                <li class="li"><a href="javascript:void (0)" class="bb">回程</a></li>
+                <li class="li"><a href="javascript:void (0)" class="bb" id="d1">切换</a></li>
             </ul>
-            </p>
+
             <form action="/trip/search" method="get">
                 <div class="left">
                     <p>
                         <label for="from_city">出发城市</label>
-                        <input type="text" name="from_city" id="from_city">
+                        <input type="text" name="from_city" id="from_city" value="{{ from_station }}">
                         <label for="to_city">到达城市</label>
-                        <input type="text" name="to_city" id="to_city">
+                        <input type="text" name="to_city" id="to_city" value="{{ to_station }}">
                     </p>
 
                 </div>
                 <div class="center">
                     <p>
                         <label for="from_day">出发时间</label>
-                        <input type="text" name="from_day" class="demo-input" placeholder="请选择日期" id="from_date"
+                        <input type="text" name="from_day" class="demo-input" value="{{ from_date }}"
+                               id="from_date"
                                autocomplete="off">
                         <label for="to_day">返回时间</label>
-                        <input type="text" name="to_day" class="demo-input" placeholder="请选择日期" id="to_date"
+                        <input type="text" name="to_day" class="demo-input" value="{{ to_date }}" id="to_date"
                                autocomplete="off">
                     </p>
 
@@ -182,18 +184,20 @@
         </div>
         <div class="new">
             <h2>最新车票</h2>
-            <ul>
+            <ul id="city">
                 <li>热门城市：</li>
-                <li>北京</li>
-                <li>上海</li>
-                <li>广州</li>
-                <li>深圳</li>
-                <li>重庆</li>
-                <li>成都</li>
-                <li>杭州</li>
-                <li>南京</li>
+                <li class="li"><a href="javascript:void (0)" class="aa">西安</a></li>
+                <li class="li"><a href="javascript:void (0)" class="aa">北京</a></li>
+                <li class="li"><a href="javascript:void (0)" class="aa">上海</a></li>
+                <li class="li"><a href="javascript:void (0)" class="aa">广州</a></li>
+                <li class="li"><a href="javascript:void (0)" class="aa">深圳</a></li>
+                <li class="li"><a href="javascript:void (0)" class="aa">重庆</a></li>
+                <li class="li"><a href="javascript:void (0)" class="aa">成都</a></li>
+                <li class="li"><a href="javascript:void (0)" class="aa">杭州</a></li>
             </ul>
             <form action="">
+            </form>
+            <div id="roll">
                 <table id="tab">
                     <thead>
                     <tr class="th" id="float">
@@ -255,15 +259,14 @@
                             <td width="66" colspan="1" rowspan="1">{{ x.14 }}</td>
                             <td width="66" colspan="1" rowspan="1">{{ x.15 }}</td>
                             <td width="66" colspan="1" rowspan="1">{{ x.16 }}</td>
-                            <td class="last" colspan="1" rowspan="1">{{ x.17 }}</td>
+                            <td class="last" colspan="1" rowspan="1"><a href="javascript:void (0)">{{ x.17 }}</a></td>
                         </tr>
 
                     {% endfor %}
-
-
                     </tbody>
                 </table>
-            </form>
+            </div>
+
         </div>
     </div>
 </div>

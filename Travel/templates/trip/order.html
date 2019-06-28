@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="/static/css/trip/order.css">
     <link rel="stylesheet" href="/static/css/trip/new_order.css">
     <script src="/static/js/jquery.js"></script>
+    <script src="/static/js/trip/order.js"></script>
 
 </head>
 
@@ -133,7 +134,7 @@
                 <h2>旅游百宝箱</h2>
                 <div class="box">
                     <a href="###" class="trea1">天气预报</a>
-                    <a href="###" class="trea2">火车票查询</a>
+                    <a href="/trip" class="trea2">火车票查询</a>
                     <a href="###" class="trea3">航空查询</a>
                     <a href="###" class="trea4">地铁线路查询</a>
                 </div>
@@ -145,18 +146,19 @@
                 <p>
                     <ul class="infor">
                         <li>车票类型</li>
-                        <li><a href="###">单程</a></li>
-                        <li><a href="###">往返</a></li>
-
+                        <li class="li"><a href="javascript:void (0)" class="bb" >单程</a></li>
+                        <li class="li"><a href="javascript:void (0)" class="bb">回程</a></li>
+                        <li class="li"><a href="javascript:void (0)" class="bb" id="d1">切换</a></li>
                     </ul>
                 </p>
+
                 <form action="/trip/search" method="get">
                     <div class="left">
                         <p>
                             <label for="from_city">出发城市</label>
-                            <input type="text" name="from_city" id="from_city" class="cityinput>
+                            <input type="text" name="from_city" id="from_city" class="cityinput">
                             <label for="to_city">到达城市</label>
-                            <input type="text" name="to_city" id="to_city">
+                            <input type="text" name="to_city" id="to_city" value="西安">
                         </p>
                     </div>
                     <div class="center">
@@ -180,18 +182,18 @@
             </div>
             <div class="new">
                 <h2>最新车票</h2>
-                <ul>
+                <ul id="city">
                     <li>热门城市：</li>
-                    <li>北京</li>
-                    <li>上海</li>
-                    <li>广州</li>
-                    <li>深圳</li>
-                    <li>重庆</li>
-                    <li>成都</li>
-                    <li>杭州</li>
-                    <li>南京</li>
+                    <li class="li"><a href="javascript:void (0)" class="aa">西安</a></li>
+                    <li class="li"><a href="javascript:void (0)" class="aa">北京</a></li>
+                    <li class="li"><a href="javascript:void (0)" class="aa">上海</a></li>
+                    <li class="li"><a href="javascript:void (0)" class="aa">广州</a></li>
+                    <li class="li"><a href="javascript:void (0)" class="aa">深圳</a></li>
+                    <li class="li"><a href="javascript:void (0)" class="aa">重庆</a></li>
+                    <li class="li"><a href="javascript:void (0)" class="aa">成都</a></li>
+                    <li class="li"><a href="javascript:void (0)" class="aa">杭州</a></li>
                 </ul>
-                <form action="">
+                <form action="" id="formtab">
                     <table id="tab">
                         <thead>
                             <tr class="th" id="float">

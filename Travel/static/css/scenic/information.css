@@ -124,19 +124,19 @@ a:hover{
 }
 
 #container .box a.trea1 {
-    background: #eee url(../img/about/trea1.png) no-repeat 10px center;
+    background: #eee url(/static/images/about/trea1.png) no-repeat 10px center;
 }
 
 #container .box a.trea2 {
-    background: #eee url(../img/about/trea2.png) no-repeat 10px center;
+    background: #eee url(/static/images/about/trea2.png) no-repeat 10px center;
 }
 
 #container .box a.trea3 {
-    background: #eee url(../img/about/trea3.png) no-repeat 10px center;
+    background: #eee url(/static/images/about/trea3.png) no-repeat 10px center;
 }
 
 #container .box a.trea4 {
-    background: #eee url(../img/about/trea4.png) no-repeat 10px center;
+    background: #eee url(/static/images/about/trea4.png) no-repeat 10px center;
 }
 
 /* 滚动加载页面 */
