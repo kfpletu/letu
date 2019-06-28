@@ -56,19 +56,54 @@ def register(request):
             newinfo.save()
             return render(request, 'index.html', locals())
 
-def index(request):
-    uname=''
-    return render(request, 'index.html', locals())
-
-# 忘记密码
-def forget(request):
-    return render(request,'user/forget.html')
-
 #购物车
 def cart(request):
-    
     return render(request,'user/cart.html')
-
 #历史记录
 def order(request):
     return render(request,'user/order.html')
+
+
+
+# 忘记密码
+def forget(request):
+    if request.method == 'GET':
+        return render(request, 'user/forget.html')
+    elif request.method == 'POST':
+
+        # 获取用户输入的信息
+        uname = request.POST.get('uname') # 用户名
+        phone = request.POST.get('phone') # 电话号码
+        email = request.POST.get('email') # 邮箱
+        validateCode = request.POST.get('validateCode')  # 验证码
+        try:
+            info = Info.objects.get(uname=uname, phone=phone, email=email)
+            request.session['uname'] = info.uname
+            return render(request, 'user/forget_new.html')
+        except:
+            return render(request,'user/forget.html')
+
+def getpwd(request):
+    if request.method == 'GET':
+        return render(request, 'user/forget.html')
+    elif request.method == 'POST':
+        # 获取用户输入的新密码
+        uname = request.session['uname']
+        print(uname)
+        new_pwd = request.POST.get('new_pwd')
+        new_pwd_again = request.POST.get('new_pwd_again')
+        if new_pwd == new_pwd_again:
+            abook = Info.objects.get(uname=uname)
+            abook.upwd = new_pwd
+            abook.save()
+            del request.session['uname']
+            return render(request, 'user/login.html')
+        else:
+            pwd_error = '密码不一致'
+            return render(request,'user/forget_new.html',locals())
+        
+
+def logout(request):
+    del request.session['userinfo']
+    # del request.session['id']
+    return HttpResponseRedirect('/')
