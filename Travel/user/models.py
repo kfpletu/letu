@@ -8,4 +8,3 @@ class Info(models.Model):
     phone = models.CharField('手机号', max_length=11, unique=True)
     email = models.EmailField('邮箱')
 
-
