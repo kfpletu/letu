@@ -16,21 +16,23 @@
 <body>
     <header id="header">
         <div class="login">
+            {% block lab %}
             <b>
                 <div id="cart">
-                    <a href="user/order.html">历史订单</a>
+                    <a href="/user/order.html">历史订单</a>
                 </div>
             </b>
+            {% endblock lab%}
         </div>
         <div class="center">
             <h1 class="logo">
-                <a href="/uesr" id="logoA">乐途旅行网</a>
+                <a href="/" id="logoA">乐途旅行网</a>
             </h1>
             
             <nav>
                 <ul class="link">
                     <h1 class="none">网站导航</h1>
-                    <li class="active"><a href="/user">首页</a></li>
+                    <li class="active"><a href="/">首页</a></li>
                     <li><a href="/scenic">景点门票</a></li>
                     <li><a href="/trip">交通出行</a></li>
                     <li><a href="/hotel">酒店预定</a></li>
@@ -62,7 +64,6 @@
         <!--商品展示-->
         <div id="content">
             <!--商品记录-->
-            <!-- {% for book in books %} -->
             <div class="item">
                 <div class="check">
                     <img src="{% static '/images/user/product_normal.png' %}" class="checkItem">
@@ -86,7 +87,6 @@
                     <div class="gsum">￥ 299.00</div>    
                     <div class="action">删除</div>
             </div>
-            <!-- {% endfor %} -->
             <div id="box1">
                 <p>是否要结算？</p>
                 <button>是</button>
@@ -95,7 +95,6 @@
             <div id="box2">
                 <p>没有要结算的订单!!</p>
             </div> 
-            <img src="../img/booking/wait.jpg" class="wait">
             <div id="empty">
                 <p>空空如也！</p>
             </div>  
@@ -135,7 +134,7 @@
         <p>Copyright ©LT 乐途旅行网 | 陕ICP备120110109号 | 旅行网经营许可证： L-LT-BK12345</p>
         <img src="{% static '/images/home/pic.gif' %}" title="站长统计">
     </div>
-    
+    <img src="/static/images/user/cart.gif" id="imgca">
     
 </body>
 

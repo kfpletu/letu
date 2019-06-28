@@ -11,57 +11,48 @@
     <link rel="stylesheet" href="/static/css/trip/order.css">
     <link rel="stylesheet" href="/static/css/trip/new_order.css">
     <script src="/static/js/jquery.js"></script>
-    <script src="/static/js/hotel/layDate-v5.0.9/laydate/laydate.js"></script> <!-- 改成你的路径 -->
-    <script>
-        lay('#version')('-v' + laydate.v);
+    <script src="/static/js/trip/order.js"></script>
 
-        //执行一个laydate实例
-        laydate.render({
-            elem: '#from_date' //指定元素,即你要输入的框的id号即可
-        });
-        laydate.render({
-            elem: '#to_date' //指定元素,即你要输入的框的id号即可
-        });
-    </script>
 </head>
+
 <body>
 <header id="header">
-    {% if uname %}
-    <div id="cart">
-        <b>
-            <ul>
-                <li class="home"><a href="javascript:void(0)">欢迎您,{{ uname }}</a>
-                    <ol class='info1'>
-                        <li><a href="/user/topUp">我的钱包</a></li>
-                        <li><a href="/user/cart">我的订单</a></li>
-                        <li><a href="/user">退出登录</a></li>
-                    </ol>
-                </li>
-            </ul>
-        </b>
-    </div>
+    {% if request.session.userinfo %}
+        <div id="cart">
+            <b>
+                <ul>
+                    <li class="home"><a href="javascript:void(0)">欢迎您,{{ request.session.userinfo.uname }}</a>
+                        <ol class='info1'>
+                            <li><a href="/user/topUp">我的钱包</a></li>
+                            <li><a href="/user/cart">我的订单</a></li>
+                            <li><a href="/user/logout">退出登录</a></li>
+                        </ol>
+                    </li>
+                </ul>
+            </b>
+        </div>
     {% else %}
-    <div class="login">
-        <b>
-            <div id="register">
-                <a href="/user/register">免费注册</a>
-            </div>
-        </b>
-        <b>
-            <div id="login">
-                <a href="/user/login">您好,请登录</a>
-            </div>
-        </b>
-    </div>
+        <div class="login">
+            <b>
+                <div id="register">
+                    <a href="/user/register">免费注册</a>
+                </div>
+            </b>
+            <b>
+                <div id="login">
+                    <a href="/user/login">您好,请登录</a>
+                </div>
+            </b>
+        </div>
     {% endif %}
     <div class="center">
         <h1 class="logo">
-            <a href="/user" id="logoA">乐途旅行网</a>
+            <a href="/" id="logoA">乐途旅行网</a>
         </h1>
         <nav>
             <ul class="link">
                 <h1 class="none">网站导航</h1>
-                <li><a href="/user">首页</a></li>
+                <li><a href="/">首页</a></li>
                 <li><a href="/scenic">景点门票</a></li>
                 <li class="active"><a href="/trip">交通出行</a></li>
                 <li><a href="/hotel">酒店预定</a></li>
@@ -92,7 +83,7 @@
                 <a href="###">云南(10)</a>
                 <a href="###">江苏(10)</a>
                 <a href="###">山东(10)</a>
-                <a href="###">河南(10)</a>/
+                <a href="###">河南(10)</a>
                 <a href="###">湖北(10)</a>
                 <a href="###">甘肃(10)</a>
                 <a href="###">河北(10)</a>
@@ -143,7 +134,7 @@
             <h2>旅游百宝箱</h2>
             <div class="box">
                 <a href="###" class="trea1">天气预报</a>
-                <a href="###" class="trea2">火车票查询</a>
+                <a href="/trip" class="trea2">火车票查询</a>
                 <a href="###" class="trea3">航空查询</a>
                 <a href="###" class="trea4">地铁线路查询</a>
             </div>
@@ -155,27 +146,29 @@
             <p>
             <ul class="infor">
                 <li>车票类型</li>
-                <li><a href="###">单程</a></li>
-                <li><a href="###">往返</a></li>
-
+                <li class="li"><a href="javascript:void (0)" class="bb">单程</a></li>
+                <li class="li"><a href="javascript:void (0)" class="bb">回程</a></li>
+                <li class="li"><a href="javascript:void (0)" class="bb" id="d1">切换</a></li>
             </ul>
             </p>
-            <form action="" method="get">
+
+            <form action="/trip/search" method="get">
                 <div class="left">
                     <p>
                         <label for="from_city">出发城市</label>
-                        <input type="text" name="from_city">
+                        <input type="text" name="from_city" id="from_city" class="cityinput">
                         <label for="to_city">到达城市</label>
-                        <input type="text" name="to_city">
+                        <input type="text" name="to_city" id="to_city" value="西安">
                     </p>
-
                 </div>
                 <div class="center">
                     <p>
                         <label for="from_day">出发时间</label>
-                        <input type="text" name="from_day" class="demo-input" placeholder="请选择日期" id="from_date">
+                        <input type="text" name="from_day" class="demo-input" placeholder="请选择日期" id="from_date"
+                               autocomplete="off">
                         <label for="to_day">返回时间</label>
-                        <input type="text" name="to_day" class="demo-input" placeholder="请选择日期" id="to_date">
+                        <input type="text" name="to_day" class="demo-input" placeholder="请选择日期" id="to_date"
+                               autocomplete="off">
                     </p>
 
                 </div>
@@ -183,25 +176,24 @@
                     <p>
                         <button class="button">查询</button>
                     </p>
-
                 </div>
             </form>
         </div>
         <div class="new">
             <h2>最新车票</h2>
-            <ul>
+            <ul id="city">
                 <li>热门城市：</li>
-                <li>北京</li>
-                <li>上海</li>
-                <li>广州</li>
-                <li>深圳</li>
-                <li>重庆</li>
-                <li>成都</li>
-                <li>杭州</li>
-                <li>南京</li>
+                <li class="li"><a href="javascript:void (0)" class="aa">西安</a></li>
+                <li class="li"><a href="javascript:void (0)" class="aa">北京</a></li>
+                <li class="li"><a href="javascript:void (0)" class="aa">上海</a></li>
+                <li class="li"><a href="javascript:void (0)" class="aa">广州</a></li>
+                <li class="li"><a href="javascript:void (0)" class="aa">深圳</a></li>
+                <li class="li"><a href="javascript:void (0)" class="aa">重庆</a></li>
+                <li class="li"><a href="javascript:void (0)" class="aa">成都</a></li>
+                <li class="li"><a href="javascript:void (0)" class="aa">杭州</a></li>
             </ul>
-            <form action="">
-                <table>
+            <form action="" id="formtab">
+                <table id="tab">
                     <thead>
                     <tr class="th" id="float">
                         <th width="90" colspan="1" rowspan="1">车次</th>
@@ -210,7 +202,8 @@
                         </th>
                         <th width="82" colspan="1" rowspan="1" id="startendtime"><span class="b1" id="s_time"
                                                                                        style="cursor: pointer;">出发时间</span><br><span
-                                class="b2" id="r_time" style="cursor: pointer;">到达时间</span></th>
+                                class="b2" id="r_time"
+                                style="cursor: pointer;">到达时间</span></th>
                         <th width="82" colspan="1" rowspan="1"><span class="b3" id="l_s"
                                                                      style="cursor: pointer;">历时</span>
                         </th>
@@ -235,44 +228,45 @@
                         <th width="66" colspan="1" rowspan="1">其他</th>
                         <th class="last" colspan="1" rowspan="1">备注</th>
                     </tr>
-                    <tr class="th" id="detail">
-                        <td width="90" colspan="1" rowspan="1">车次</td>
-                        <td width="100" colspan="1" rowspan="1">出发站<br clear="none">
-                            到达站
-                        </td>
-                        <td width="82" colspan="1" rowspan="1" id="startendtime"><span class="b1" id="s_time"
-                                                                                       style="cursor: pointer;">出发时间</span><br><span
-                                class="b2" id="r_time" style="cursor: pointer;">到达时间</span></td>
-                        <td width="82" colspan="1" rowspan="1"><span class="b3" id="l_s"
-                                                                     style="cursor: pointer;">历时</span>
-                        </td>
-                        <td width="66" colspan="1" rowspan="1">商务座<br clear="none">
-                            特等座
-                        </td>
-                        <td width="66" colspan="1" rowspan="1">一等座</td>
-                        <td width="66" colspan="1" rowspan="1">二等座</td>
-                        <td width="66" colspan="1" rowspan="1">高级<br clear="none">
-                            软卧
-                        </td>
-                        <td width="66" colspan="1" rowspan="1">软卧<br clear="none">
-                            一等卧
-                        </td>
-                        <td width="66" colspan="1" rowspan="1">动卧</td>
-                        <td width="66" colspan="1" rowspan="1">硬卧<br clear="none">
-                            二等卧
-                        </td>
-                        <td width="66" colspan="1" rowspan="1">软座</td>
-                        <td width="66" colspan="1" rowspan="1">硬座</td>
-                        <td width="66" colspan="1" rowspan="1">无座</td>
-                        <td width="66" colspan="1" rowspan="1">其他</td>
-                        <td class="last" colspan="1" rowspan="1">备注</td>
-                    </tr>
-                    <tbody id="queryLeftTable">
-                    </tbody>
+                    </thead>
+
+                    {#                    <tbody id="queryLeftTable">#}
+                    {#                    <tr class="th1" id="detail">#}
+                    {#                        <td width="90" colspan="1" rowspan="1">车次</td>#}
+                    {#                        <td width="100" colspan="1" rowspan="1">出发站<br clear="none">#}
+                    {#                            到达站#}
+                    {#                        </td>#}
+                    {#                        <td width="82" colspan="1" rowspan="1" id="startendtime"><span class="b1" id="s_time"#}
+                    {#                                                                                       style="cursor: pointer;">出发时间</span><br><span#}
+                    {#                                class="b2" id="r_time" style="cursor: pointer;">到达时间</span></td>#}
+                    {#                        <td width="82" colspan="1" rowspan="1"><span class="b3" id="l_s"#}
+                    {#                                                                     style="cursor: pointer;">历时</span>#}
+                    {#                        </td>#}
+                    {#                        <td width="66" colspan="1" rowspan="1">商务座<br clear="none">#}
+                    {#                            特等座#}
+                    {#                        </td>#}
+                    {#                        <td width="66" colspan="1" rowspan="1">一等座</td>#}
+                    {#                        <td width="66" colspan="1" rowspan="1">二等座</td>#}
+                    {#                        <td width="66" colspan="1" rowspan="1">高级<br clear="none">#}
+                    {#                            软卧#}
+                    {#                        </td>#}
+                    {#                        <td width="66" colspan="1" rowspan="1">软卧<br clear="none">#}
+                    {#                            一等卧#}
+                    {#                        </td>#}
+                    {#                        <td width="66" colspan="1" rowspan="1">动卧</td>#}
+                    {#                        <td widthcitySelect="66" colspan="1" rowspan="1">硬卧<br clear="none">#}
+                    {#                            二等卧#}
+                    {#                        </td>#}
+                    {#                        <td width="66" colspan="1" rowspan="1">软座</td>#}
+                    {#                        <td width="66" colspan="1" rowspan="1">硬座</td>#}
+                    {#                        <td width="66" colspan="1" rowspan="1">无座</td>#}
+                    {#                        <td width="66" colspan="1" rowspan="1">其他</td>#}
+                    {#                        <td class="last" colspan="1" rowspan="1">备注</td>#}
+                    {#                    </tr>#}
+                    {#                    </tbody>#}
                 </table>
             </form>
         </div>
-        <div class="more">加载更多...</div>
     </div>
 </div>
 <footer id="footer">
@@ -309,6 +303,20 @@
         <img src="/static/images/home/pic.gif" title="站长统计">
     </div>
 </footer>
+<script src="../../static/js/hotel/layDate-v5.0.9/laydate/laydate.js"></script>
+<script>
+    lay('#version').html('-v' + laydate.v);
+
+    //执行一个laydate实例
+    laydate.render({
+        elem: '#from_date'
+    });
+    laydate.render({
+        elem: '#to_date' //指定元素,即你要输入的框的id号即可
+    });
+</script>
+
+
 </body>
 
 </html>

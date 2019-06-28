@@ -11,7 +11,7 @@ $(function(){
 	$('#container .new li a:first').mouseover(function(){
 		$('.hotel_figure').css('display','block')
 	})
-	$('#container .new li a:gt(0)').mouseover(function(){
+	$('#container .new li a:gt(0)').click(function(){
 		$('.hotel_figure').css('display','none')
 		var elems =$(".hotel_figure .hotel_name")
 		for(var i =0;i<elems.length;i++){
@@ -37,10 +37,10 @@ $(function(){
 		timerH=setInterval(function(){
 		listBoxMarginH-=2;	
 		$('.brandListBox:first').css('margin-left',(listBoxMarginH+'px'))
-		if (listBoxMarginH<-1400){
+		if (listBoxMarginH<-4400){
 			listBoxMarginH=0;
 		}
-	},100)
+	},50)
 	})
 
 	var listBoxMarginF=0;
