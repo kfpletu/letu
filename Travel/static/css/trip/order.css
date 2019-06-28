@@ -80,7 +80,19 @@
     /*margin: 0 10px 0 16px;*/
 
 }
-#container .form input {
+/*#container .form input {*/
+/*    width: 250px;*/
+/*    height: 30px;*/
+/*    border: 1px solid #ccc;*/
+/*    background-color: #fff;*/
+/*    border-radius: 4px;*/
+/*    padding: 5px;*/
+/*    font-size: 18px;*/
+/*    color: #666;*/
+/*    margin: 0 0 0 16px;*/
+
+/*}*/
+.form input {
     width: 250px;
     height: 30px;
     border: 1px solid #ccc;
@@ -201,4 +213,7 @@
     width: 50px;
     line-height: 30px;
     text-align: center;
+}
+#last:hover{
+    color: #ff6600;
 }
